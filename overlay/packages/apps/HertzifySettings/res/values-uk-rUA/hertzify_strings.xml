@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 HertzifyOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Hertzify Main Dashboard -->
+    <string name="hertzify_dashboard_title">Hertzify Settings</string>
+    <string name="hertzify_dashboard_summary">Tune your system to the right frequency</string>
+    <!-- Main Features -->
+    <string name="hertzify_status_bar_title">Status bar</string>
+    <string name="hertzify_status_bar_summary">Gestures, Icons, privacy indicators</string>
+    <string name="hertzify_quick_settings_title">Quick settings</string>
+    <string name="hertzify_quick_settings_summary">Interface, lock screen</string>
+    <string name="hertzify_notifications_title">Notifications</string>
+    <string name="hertzify_notifications_summary">Alerts, interface</string>
+    <string name="hertzify_user_interface_title">User Interface</string>
+    <string name="hertzify_user_interface_summary">Customize the look and feel of your device</string>
+    <string name="hertzify_lock_screen_title">Lock screen</string>
+    <string name="hertzify_lock_screen_summary">Interface, miscellaneous</string>
+    <string name="hertzify_miscellaneous_title">Miscellaneous</string>
+    <string name="hertzify_miscellaneous_summary">Developer options, spoofing</string>
+    <string name="hertzify_about_title">About</string>
+    <string name="hertzify_about_summary">About HertzifyOS</string>
+    <!-- About Section Strings -->
+    <string name="hertzify_about_info"></string>
+    <string name="hertzify_about_links_category_title">Official Links</string>
+    <string name="hertzify_about_website_title">Website</string>
+    <string name="hertzify_about_website_summary">Feel free to drop by our website</string>
+    <string name="hertzify_about_telegram_summary">Come see our Telegram</string>
+    <string name="hertzify_about_github_summary">Check out our GitHub</string>
+    <string name="hertzify_about_contributors_title">Contributors</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">by default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+    <string name="accent_color">Accent color</string>
+    <string name="rainbow_color">Rainbow color</string>
+    <string name="custom_color">Custom color</string>
+    <!-- Proper seekbar -->
+    <string name="proper_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="proper_seekbar_default_value">Default</string>
+    <string name="proper_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="proper_seekbar_default_value_is_set">Default value is set</string>
+    <!-- General -->
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="default_value">Default</string>
+    <string name="top">Top</string>
+    <string name="bottom">Bottom</string>
+    <string name="reset">Reset</string>
+    <string name="delete_message">Remove selected item?</string>
+    <string name="choose_app">Choose app</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
+    <string name="apply">Apply</string>
+    <!-- Units -->
+    <string name="unit_hz">hz</string>
+    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_seconds">seconds</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Status bar items</string>
+    <string name="icon_manager_summary">Control visibility of status bar icons</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Heads-up</string>
+    <string name="heads_up_notifications_enabled_summary">Display priority notifications in a small floating window</string>
+    <!-- Brightness Slider -->
+    <string name="qs_show_brightness_slider_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_never">Never show</string>
+    <string name="qs_show_brightness_slider_expanded">Show when expanded</string>
+    <string name="qs_show_brightness_slider_always">Show always</string>
+    <string name="qs_brightness_slider_position_title">Position</string>
+    <string name="qs_brightness_slider_position_top">Top</string>
+    <string name="qs_brightness_slider_position_bottom">Bottom</string>
+    <string name="status_bar_brightness_slider_auto_title">Auto brightness button</string>
+    <string name="status_bar_brightness_slider_auto_summary">Show toggle for adaptive brightness near the slider</string>
+    <!-- Play Integrity Fix -->
+    <string name="spoof_pif_title">Play Integrity Fix</string>
+    <string name="spoof_pif_summary">Manage configuration and device fingerprints for PIF</string>
+    <string name="spoof_pif_category">PIF Configuration</string>
+    <string name="spoof_pif_options_category">PIF Options</string>
+    <string name="spoof_pif_fetch_title">Fetch PIF</string>
+    <string name="spoof_pif_fetch_summary">Download Canary PIF data from Google</string>
+    <string name="spoof_pif_fetching">Fetching data from Google…</string>
+    <string name="spoof_pif_generating">Generating PIF…</string>
+    <string name="spoof_pif_select_device">Select device to fetch</string>
+    <string name="spoof_pif_fetched_model">Applied PIF config for: %s</string>
+    <string name="spoof_pif_no_canary_devices">No Canary devices found</string>
+    <string name="spoof_pif_import_title">Import PIF</string>
+    <string name="spoof_pif_import_summary">Import PIF config from file</string>
+    <string name="spoof_pif_imported_success">PIF imported successfully</string>
+    <string name="spoof_pif_delete_title">Delete PIF</string>
+    <string name="spoof_pif_delete_summary">Remove current active PIF</string>
+    <string name="spoof_pif_delete_confirm_title">Delete active PIF?</string>
+    <string name="spoof_pif_delete_confirm_message">This PIF will be permanently deleted.</string>
+    <string name="spoof_pif_delete_button">Delete</string>
+    <string name="spoof_pif_delete_success">PIF deleted successfully</string>
+    <string name="spoof_pif_properties">PIF Properties</string>
+    <string name="spoof_pif_no_config">No PIF configuration loaded</string>
+    <string name="spoof_pif_config_details">PIF Details</string>
+    <string name="spoof_pif_photos_title">Spoof Google Photos</string>
+    <string name="spoof_pif_photos_summary">Enable unlimited original quality backup</string>
+    <string name="spoof_pif_failed">PIF Error: %s</string>
+    <string name="spoof_pif_error_no_devices_found">No canary devices found</string>
+    <string name="spoof_pif_error_no_apikey">Failed to extract Flash Tool API key</string>
+    <string name="spoof_pif_error_no_build_array">No flashstationBuild array in Flash Tool response</string>
+    <string name="spoof_pif_error_no_build">No canary build found for %s</string>
+    <string name="spoof_pif_error_no_canary_month">Failed to derive canary month id</string>
+    <string name="spoof_pif_error_fetch_failed">Failed to fetch canary PIF: %s</string>
+    <!-- TrickyStore -->
+    <string name="spoof_ts_title">TrickyStore</string>
+    <string name="spoof_ts_summary">Manage keybox and target apps for attestation</string>
+    <string name="spoof_ts_keybox_management">Keybox management</string>
+    <string name="spoof_ts_import_keybox">Import keybox</string>
+    <string name="spoof_ts_no_keybox">No keybox installed</string>
+    <string name="spoof_ts_keybox_installed">Keybox installed</string>
+    <string name="spoof_ts_keybox_imported">Keybox imported successfully</string>
+    <string name="spoof_ts_delete_keybox">Delete keybox</string>
+    <string name="spoof_ts_delete_keybox_summary">Remove keybox file</string>
+    <string name="spoof_ts_delete_keybox_title">Delete keybox?</string>
+    <string name="spoof_ts_delete_keybox_message">The keybox file will be permanently removed.</string>
+    <string name="spoof_ts_delete">Delete</string>
+    <string name="spoof_ts_keybox_deleted">Keybox deleted</string>
+    <string name="spoof_ts_target_configuration">Target configuration</string>
+    <string name="spoof_ts_manage_target_apps">Manage target apps</string>
+    <string name="spoof_ts_no_targets">No target apps configured</string>
+    <string name="spoof_ts_target_apps_count">%d apps configured</string>
+    <string name="spoof_ts_import_target_list">Import target list</string>
+    <string name="spoof_ts_import_target_list_summary">Import target.txt from a file</string>
+    <string name="spoof_ts_target_list_imported">Target list imported</string>
+    <string name="spoof_ts_search_apps">Search apps...</string>
+    <string name="spoof_ts_save">Save</string>
+    <string name="spoof_ts_targets_saved">Target list saved</string>
+    <string name="spoof_ts_failed">Failed: %s</string>
+    <string name="spoof_ts_clear_targets_title">Clear target list</string>
+    <string name="spoof_ts_clear_targets_summary">Remove all apps from the spoofing list</string>
+    <string name="spoof_ts_clear_targets_msg">Are you sure you want to remove all applications from the target list?</string>
+    <string name="spoof_ts_targets_cleared">Target list cleared successfully</string>
+    <!-- App Spoofing -->
+    <string name="spoof_ap_title">App spoofing</string>
+    <string name="spoof_ap_summary">Spoof device properties for specific apps</string>
+    <string name="spoof_ap_enable">Enable app spoofing</string>
+    <string name="spoof_ap_enable_summary">Spoof device properties for configured apps</string>
+    <string name="spoof_ap_add_app">Add app</string>
+    <string name="spoof_ap_add_app_summary">Select an app and device profile to spoof</string>
+    <string name="spoof_ap_configured_apps">Configured apps</string>
+    <string name="spoof_ap_no_apps">No apps configured</string>
+    <string name="spoof_ap_no_apps_summary">Tap \"Add app\" to get started</string>
+    <string name="spoof_ap_select_app">Select App</string>
+    <string name="spoof_ap_no_more_apps">No more apps to add</string>
+    <string name="spoof_ap_change_profile">Change</string>
+    <string name="spoof_ap_remove">Remove</string>
+    <string name="spoof_ap_remove_app_title">Remove app?</string>
+    <string name="spoof_ap_remove_app_message">Remove %s from app spoofing?</string>
+    <string name="spoof_ap_select_profile_for">Select Profile for %s</string>
+    <string name="spoof_ap_updated_to">Updated to %s</string>
+    <string name="spoof_ap_deleted_success">%s deleted</string>
+    <string name="spoof_ap_search_apps">Search apps...</string>
+    <string name="spoof_ap_failed">Failed: %s</string>
+    <string name="spoof_ap_manage_profiles">Manage profiles</string>
+    <string name="spoof_ap_manage_profiles_summary">Create, edit, or delete custom device profiles</string>
+    <string name="spoof_ap_add_profile">Add profile</string>
+    <string name="spoof_ap_profile_name">Profile Name</string>
+    <string name="spoof_ap_hint_profile_name">e.g. My Custom Phone</string>
+    <string name="spoof_ap_key_model">Model</string>
+    <string name="spoof_ap_hint_model">e.g. SM-S928B</string>
+    <string name="spoof_ap_key_manufacturer">Manufacturer</string>
+    <string name="spoof_ap_hint_manufacturer">e.g. samsung</string>
+    <string name="spoof_ap_key">Key</string>
+    <string name="spoof_ap_value">Value</string>
+    <string name="spoof_ap_add_prop">Add Custom Property</string>
+    <string name="spoof_ap_use_profile">Use Profile</string>
+    <string name="spoof_ap_save_as_profile">Save as Profile</string>
+    <string name="spoof_ap_save_profile">Save Profile</string>
+    <string name="spoof_ap_no_profiles">No profiles available</string>
+    <string name="spoof_ap_select_profile">Select Profile</string>
+    <string name="spoof_ap_required">Required</string>
+    <string name="spoof_ap_error_empty_name">Name cannot be empty</string>
+    <string name="spoof_ap_error_duplicate_name">Profile \'%s\' already exists</string>
+    <string name="spoof_ap_duplicate_config_title">Duplicate Configuration</string>
+    <string name="spoof_ap_duplicate_config_message">This configuration is identical to profile \'%s\'</string>
+    <string name="spoof_ap_keep_both">Keep Both</string>
+    <string name="spoof_ap_overwrite_existing">Overwrite</string>
+    <string name="spoof_ap_profile_saved">Profile saved</string>
+    <string name="spoof_ap_remove_profile">Remove Profile</string>
+    <string name="spoof_ap_remove_profile_title">Remove profile?</string>
+    <string name="spoof_ap_remove_profile_message">Remove %s?</string>
+    <string name="spoof_ap_save">Save</string>
+    <string name="spoof_ap_profile_applied">Applied %1$s</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Hide applist</string>
+    <string name="hide_applist_summary">Prevent apps from checking selected apps from appslist</string>
+    <string name="menu_show_overlay">Show overlay</string>
+    <string name="menu_hide_overlay">Hide overlay</string>
+    <!-- Status Bar Battery Percent -->
+    <string name="status_bar_battery_percent_title">Battery percent</string>
+    <string name="status_bar_battery_percent_hidden">Hidden</string>
+    <string name="status_bar_battery_percent_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
+    <!-- Status bar Battery Style -->
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
+    <!-- Advanced Restart -->
+    <string name="advanced_reboot_title">Enable advanced restart</string>
+    <string name="advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <!-- Status bar/Clock & date-->
+    <string name="status_bar_clock_title">Clock &amp; date</string>
+    <string name="status_bar_clock_summary">Customize clock &amp; date</string>
+    <string name="status_bar_clock_position_title">Clock style</string>
+    <string name="status_bar_clock_position_right">Right</string>
+    <string name="status_bar_clock_position_left">Left</string>
+    <string name="status_bar_clock_position_center">Center</string>
+    <string name="status_bar_clock_seconds_title">Clock seconds</string>
+    <string name="status_bar_clock_seconds_summary">Display seconds next to clock in status bar</string>
+    <string name="status_bar_clock_auto_hide_title">Auto hide</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide clock if launcher is visible</string>
+    <string name="status_bar_am_pm_title">AM/PM style</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Small</string>
+    <string name="status_bar_am_pm_hidden">Hidden</string>
+    <string name="status_bar_date_title">Date</string>
+    <string name="status_bar_date_none">Hidden</string>
+    <string name="status_bar_date_small">Small</string>
+    <string name="status_bar_date_normal">Normal</string>
+    <string name="status_bar_date_format_title">Date format</string>
+    <string name="status_bar_date_style">Date style</string>
+    <string name="status_bar_date_style_normal">Normal</string>
+    <string name="status_bar_date_style_lowercase">Lowercase</string>
+    <string name="status_bar_date_style_uppercase">Uppercase</string>
+    <string name="status_bar_date_format_custom">Custom java format</string>
+    <string name="status_bar_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Enter string</string>
+    <string name="status_bar_clock_date_position">Date position</string>
+    <string name="status_bar_clock_date_right">Right of time</string>
+    <string name="status_bar_clock_date_left">Left of time</string>
+    <!-- Allow application downgrade -->
+    <string name="miscellaneous_app_downgrade_title">Allow application downgrade</string>
+    <string name="miscellaneous_app_downgrade_summary">Allow downgrading system applications, which may result in crashes and data loss</string>
+    <!-- Double tap to sleep -->
+    <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar to turn off the display</string>
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Lockscreen battery info indicator -->
+    <string name="lockscreen_battery_info_title">Charging Info on Lock Screen</string>
+    <string name="lockscreen_battery_info_summary">Show current, voltage, wattage, and temperature while charging</string>
+    <!-- Power menu -->
+    <string name="power_menu_lock_screen_secure_title">Power menu on secure lock screen</string>
+    <string name="power_menu_lock_screen_secure_summary">Show the power menu while the device is locked</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="status_bar_carrier_lock_screen_title">Carrier name on lockscreen</string>
+    <string name="status_bar_carrier_lock_screen_summary">Display carrier name on lockscreen status bar</string>
+    <!-- Fingerprint unlock ripple animation -->
+    <string name="lock_screen_fingerprint_ripple_title">Ripple animation</string>
+    <string name="lock_screen_fingerprint_ripple_summary">Show ripple animation when unlocked with fingerprint</string>
+    <!-- Colored icons -->
+    <string name="status_bar_colored_icons_title">Colored icons</string>
+    <string name="status_bar_colored_icons_summary">Use launcher icons for app notifications</string>
+    <!-- Notification counter -->
+    <string name="status_bar_notif_count_title">Notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of unread notifications on each app icon</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fp_error_vibrate_title">Fingerprint error vibration</string>
+    <string name="fp_error_vibrate_summary">Vibrate on error fingerprint authentication</string>
+    <string name="fp_success_vibrate_title">Fingerprint authentication vibration</string>
+    <string name="fp_success_vibrate_summary">Vibrate on successful fingerprint authentication</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <!-- SystemUI restart dialog -->
+    <string name="systemui_restart_title">SystemUI restart required</string>
+    <string name="systemui_restart_message">For changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
+    <string name="systemui_restart_yes">Yes</string>
+    <string name="systemui_restart_not_now">Not now</string>
+    <string name="systemui_restart_process">Restarting SystemUI to apply changes...</string>
+    <!-- System restart dialog -->
+    <string name="system_restart_title">System restart required</string>
+    <string name="system_restart_message">For changes to take effect, a system restart is required. Restart now?</string>
+    <string name="system_restart_yes">Yes</string>
+    <string name="system_restart_not_now">Not now</string>
+    <!-- Media player mode -->
+    <string name="qs_compact_media_player_mode_title">Compact media player</string>
+    <string name="qs_compact_media_player_mode_summary">Use compact mode for the quick settings media player</string>
+</resources>
