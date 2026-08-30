@@ -16,8 +16,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Backup Transport selection settings menu and activity title -->
-    <string name="backup_transport_setting_label">Change backup provider</string>
-    <string name="backup_transport_title">Select backup provider</string>
+    <string name="backup_transport_setting_label">Thay đổi nhà cung cấp sao lưu</string>
+    <string name="backup_transport_title">Chọn nhà cung cấp sao lưu</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {Bạn còn # bước nữa để bật cài đặt nhà phát triển.}
@@ -82,21 +82,21 @@
     <string name="hertzify_vendor_security_patch">Bản và bảo mật vendor</string>
     <string name="hertzify_build_date">Ngày dựng</string>
     <!-- Max refresh rate -->
-    <string name="max_refresh_rate_title">Peak refresh rate</string>
+    <string name="max_refresh_rate_title">Tốc độ làm mới cao nhất</string>
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <string name="min_refresh_rate_title">Tốc độ làm mới tối thiểu</string>
     <!-- Hardware info -->
-    <string name="device_market_name">Market Name</string>
-    <string name="soc_model">SoC Model</string>
-    <string name="total_ram">Total RAM</string>
-    <string name="device_name">Device</string>
+    <string name="device_market_name">Tên thương mại</string>
+    <string name="soc_model">Chip xử lý</string>
+    <string name="total_ram">Bộ nhớ Ram</string>
+    <string name="device_name">Thiết bị</string>
     <!-- Device SKU -->
-    <string name="hardware_sku">Hardware SKU</string>
+    <string name="hardware_sku">Phần cứng SKU</string>
     <!-- USB configuration -->
-    <string name="usb_default_config_title">USB configuration</string>
-    <string name="usb_default_config_summary">Choose the default behavior when connected to a device via USB</string>
+    <string name="usb_default_config_title">Cấu hình USB</string>
+    <string name="usb_default_config_summary">Chọn hành vi mặc định khi được kết nối với thiết bị qua cổng USB</string>
     <!-- Expressive QR -->
-    <string name="wifi_qr_code_animation_control">pause the animation</string>
+    <string name="wifi_qr_code_animation_control">dừng hoạt ảnh</string>
     <!-- Locale Picker -->
     <string name="clear_search_query_description">Xóa nội dung tìm kiếm</string>
     <string name="language_picker_page">Trang chọn ngôn ngữ</string>
@@ -282,11 +282,11 @@
     <string name="wake_when_plugged_or_unplugged_title">Bật màn hình khi sạc</string>
     <string name="wake_when_plugged_or_unplugged_summary">Bật màn hình khi kết nối hoặc ngắt kết nối nguồn điện</string>
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Quick torch</string>
-    <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
+    <string name="power_button_torch_title">Bật đèn pin nhanh</string>
+    <string name="power_button_torch_summary">Khi màn hình tắt, nhấn giữ nút nguồn để bật đèn flash</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Chuyển đổi giữa các chế độ</string>
+    <string name="prevent_ringing_option_cycle_summary">Bật (chuyển đổi giữa các chế độ)</string>
     <!-- Enforce DNS for VPN -->
     <string name="vpn_enforce_dns_title">Tắt khi dùng VPN</string>
     <string name="vpn_enforce_dns_summary">Tắt DNS riêng tư khi kết nối VPN\nSẽ được khôi phục khi ngắt kết nối</string>
@@ -301,8 +301,8 @@
     <!-- Quad9 DNS Option -->
     <!-- Quad9 DNS hostname -->
     <!-- Fingerprint lockout -->
-    <string name="fingerprint_lockout_title">Disable fingerprint lockout</string>
-    <string name="fingerprint_lockout_summary">Deactivates 30 second timeout as well as permanent lockout after multiple failed fingerprint unlock attempts</string>
+    <string name="fingerprint_lockout_title">Vô hiệu hóa khóa vân tay</string>
+    <string name="fingerprint_lockout_summary">Vô hiệu hóa thời gian chờ 30 giây và khóa vĩnh viễn sau nhiều lần thử vân tay thất bại</string>
     <!-- Navbar options -->
     <string name="navbar_category">Thanh điều hướng</string>
     <string name="show_navbar_hint_title">Gợi ý điều hướng</string>
