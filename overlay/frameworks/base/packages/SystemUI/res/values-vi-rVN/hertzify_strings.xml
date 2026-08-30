@@ -108,7 +108,7 @@
     <string name="quick_settings_preferred_network_label">Mạng ưu tiên</string>
     <string name="quick_settings_preferred_network_lte">4G / LTE</string>
     <string name="quick_settings_preferred_network_nr">5G / NR</string>
-    <string name="quick_settings_preferred_network_unsupported">Không được hỗ trợ</string>
+    <string name="quick_settings_preferred_network_unsupported">Không hỗ trợ</string>
     <!-- Compass QS Tile -->
     <string name="quick_settings_compass_label">La bàn</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
