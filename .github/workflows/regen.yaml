@@ -1,0 +1,49 @@
+name: Regen source files and crowdin.yml
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - repos.yaml
+  workflow_dispatch:
+  schedule:
+    - cron: '0 17 * * *'
+
+concurrency:
+  group: regen-crowdin-config
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  regen-crowdin-config:
+    runs-on: ubuntu-slim
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install dependencies
+        run: python3 -m pip install --user --break-system-packages httpx pyyaml
+
+      - name: Regenerate source files and crowdin.yml
+        env:
+          X_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 main.py
+
+      - name: Commit changes
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Automatic translation import"
+          git push
