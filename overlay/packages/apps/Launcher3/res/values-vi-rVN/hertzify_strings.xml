@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2026 The HertzifyOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Application name -->
+    <!-- Folder titles -->
+    <string name="settings_title">Cài đặt màn hình chính</string>
+    <string name="home_category_title">Màn hình chính</string>
+    <string name="home_category_summary">Thiết lập Google now và nhiều hơn nữa</string>
+    <string name="icons_category_title">Biểu tượng</string>
+    <string name="icons_category_summary">Thiết lập kích thước biểu tượng và nhiều hơn nữa</string>
+    <string name="app_drawer_category_title">Ngăn kéo ứng dụng</string>
+    <string name="app_drawer_category_summary">Tùy chỉnh ngăn kéo ứng dụng của bạn</string>
+    <string name="recents_category_title">Gần đây</string>
+    <string name="recents_category_summary">Cải tiến màn hình tổng quan</string>
+    <string name="misc_category_title">Cài đặt khác</string>
+    <string name="misc_category_summary">Các tùy chọn khác</string>
+    <string name="general_category_title">Tổng quát</string>
+    <string name="interface_category_title">Giao diện</string>
+    <string name="actions_category_title">Thao tác nhanh</string>
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Vuốt để truy cập ứng dụng Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Khi bạn vuốt sang phải từ màn hình chính</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Khi bạn vuốt sang trái từ màn hình chính</string>
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Gợi ý</string>
+    <string name="suggestion_pref_screen_desc">Cho gợi ý Tất cả ứng dụng &amp; Màn hình chính</string>
+    <!-- Restart launcher -->
+    <string name="pref_restart_title">Khởi động lại</string>
+    <string name="pref_restart_summary">Khởi động lại trình khởi chạy thủ công để áp dụng các cài đặt đang chờ</string>
+    <string name="restarting_launcher">Đang khởi động lại trình khởi chạy...</string>
+    <string name="restarting_launcher_changes">Đang khởi động lại trình khởi chạy để áp dụng thay đổi...</string>
+    <string name="updating_launcher_components">Đang khởi động lại trình khởi chạy để cập nhật các thành phần...</string>
+    <!-- All apps themed icons -->
+    <string name="pref_themed_icons_title">Use themed icons in drawer</string>
+    <string name="pref_themed_icons_summary">Follow themed icons used on home screen</string>
+    <!-- Edit workspace -->
+    <string name="settings_lock_layout_title">Khóa bố cục</string>
+    <string name="settings_lock_layout_summary_on">Biểu tượng và widget không thể thêm, xóa và di chuyển trên màn hình chính</string>
+    <string name="settings_lock_layout_summary_off">Biểu tượng và widget có thể thêm, xóa và di chuyển trên màn hình chính</string>
+    <string name="settings_edit_widgets_error">Không thể thêm widget vào màn hình chính</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Show icon labels on desktop</string>
+    <string name="drawer_show_labels">Show icon labels in drawer</string>
+    <!-- Additional shape options in customization picker -->
+    <string name="pebble_shape_title">Pebble</string>
+    <string name="vessel_shape_title">Vessel</string>
+    <string name="pure_square_shape_title">Vuông thuần túy</string>
+    <string name="squircle_shape_title">Hình vuông bo tròn</string>
+    <string name="tapered_rect_shape_title">Hình chữ nhật thuôn</string>
+    <string name="teardrop_shape_title">Giọt nước</string>
+    <string name="rounded_rect_shape_title">Hình chữ nhật bo tròn</string>
+    <string name="cloudy_shape_title">Đám mây</string>
+    <string name="cylindrical_shape_title">Hình trụ</string>
+    <string name="flower_shape_title">Hoa</string>
+    <string name="heart_shape_title">Trái tim</string>
+    <string name="hexagon_shape_title">Lục giác</string>
+    <string name="ios_style_shape_title">Kiểu iOS</string>
+    <string name="leaf_shape_title">Lá cây</string>
+    <string name="meow_shape_title">Meow</string>
+    <string name="samsung_style_shape_title">Kiểu Samsung</string>
+    <string name="scroll_shape_title">Scroll</string>
+    <string name="stretched_shape_title">Kéo dài</string>
+    <!-- Open keyboard -->
+    <string name="drawer_open_keyboard_title">Vuốt để bắt đầu tìm kiếm</string>
+    <string name="drawer_open_keyboard_summary">Mở bàn phím bất cứ khi nào ngăn kéo ứng dụng hiển thị</string>
+    <!-- Search bar -->
+    <string name="pref_show_hotseat_qsb_title">Show search bar</string>
+    <string name="pref_show_hotseat_qsb_summary">At the bottom of your home screen</string>
+    <!-- DT2S -->
+    <string name="pref_sleep_gesture_title">Nhấn hai lần để tắt màn hình</string>
+    <string name="pref_sleep_gesture_summary">Nhấn hai lần vào khoảng trống trên màn hình chính để tắt màn hình</string>
+    <string name="pref_sleep_gesture_haptic_title">Rung khi nhấn hai lần để tắt màn hình</string>
+    <string name="pref_sleep_gesture_haptic_summary">Cung cấp phản hồi rung khi nhấn hai lần để tắt màn hình</string>
+    <!-- Icon size -->
+    <string name="icon_size_title">Kích thước biểu tượng</string>
+    <!-- Font size -->
+    <string name="font_size_title">Cỡ chữ</string>
+    <!-- App label -->
+    <string name="icon_two_lines_title">Sử dụng hai dòng cho nhãn ứng dụng</string>
+    <!-- Row Height -->
+    <string name="row_height_title">Chiều cao hàng</string>
+    <!-- Hotseat Background -->
+    <string name="hotseat_bg_title">Nền thanh dock</string>
+    <string name="hotseat_bg_summary">Thêm nền trong mờ cho thanh ứng dụng dock</string>
+    <!-- Background opacity -->
+    <string name="background_opacity_title">Độ mờ nền</string>
+    <!-- App drawer searchbar -->
+    <string name="drawer_search_title">App search bar</string>
+    <string name="drawer_search_summary">Search bar on top of the app drawer</string>
+    <!-- Wallpaper scrolling -->
+    <string name="allow_wallpaper_scrolling">Cuộn hình nền</string>
+    <string name="allow_wallpaper_scrolling_summary">Hiệu ứng cuộn hình nền cho nhiều màn hình</string>
+    <!-- Wallpaper zooming -->
+    <string name="allow_wallpaper_zooming">Thu phóng hình nền</string>
+    <string name="allow_wallpaper_zooming_summary">Phóng to hoặc thu nhỏ hình nền khi sử dụng ngăn kéo hoặc ứng dụng gần đây</string>
+    <!-- Recents icons -->
+    <string name="recents_chips_title">Use compact action design</string>
+    <string name="recents_chips_summary">May be required for large numbers of actions to display</string>
+    <string name="recents_screenshot_title">Chụp màn hình</string>
+    <string name="recents_clear_all_title">Xóa tất cả</string>
+    <string name="recents_lens_title">Ống kính</string>
+    <!-- Parallax -->
+    <string name="short_parallax_title">Cho phép parallax ngắn</string>
+    <string name="short_parallax_summary">Bật hiệu ứng cuộn hình nền đầy đủ trên số lượng trang nhỏ hơn thay vì cắt hình nền</string>
+    <string name="single_page_center_title">Căn giữa trang đơn</string>
+    <string name="single_page_center_summary">Căn giữa hình nền nếu chỉ sử dụng một trang</string>
+    <!-- App drawer scrollbar -->
+    <string name="drawer_scrollbar_title">Thanh cuộn</string>
+    <string name="drawer_scrollbar_summary">Thanh cuộn ở cạnh của ngăn kéo ứng dụng</string>
+    <!-- clear home screen -->
+    <string name="home_screen_actions">Hành động màn hình chính</string>
+    <string name="remove_all_views_from_home_screen">Xóa toàn bộ màn hình chính</string>
+    <string name="remove_all_views_from_home_screen_desc">Màn hình chính sẽ bị xóa sạch. Bạn có muốn tiếp tục không?</string>
+    <!-- Message shown when all home screen views are removed -->
+    <string name="home_screen_all_views_removed_msg">Đã xóa toàn bộ màn hình chính</string>
+</resources>
