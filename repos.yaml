@@ -1,0 +1,31 @@
+default_branch: 17
+
+repos:
+  - name: HertzifyOS/android_frameworks_base
+    path: frameworks/base
+    translate_attributes: false
+    files:
+      - core/res/res/values/hertzify_strings.xml
+      - packages/SystemUI/res/values/hertzify_strings.xml
+      - packages/AppDataBackup/res/values/strings.xml
+      - packages/SystemUI/res/values/smartspace_strings.xml
+
+  - name: HertzifyOS/android_packages_apps_Settings
+    path: packages/apps/Settings
+    files:
+      - res/values/hertzify_strings.xml
+
+  - name: HertzifyOS/android_packages_apps_HertzifySettings
+    path: packages/apps/Settings/HertzifySettings
+    files:
+      - res/values/hertzify_strings.xml
+
+  - name: HertzifyOS/android_packages_apps_Launcher3
+    path: packages/apps/Launcher3
+    files:
+      - res/values/hertzify_strings.xml
+
+  - name: HertzifyOS/android_packages_apps_Updater
+    path: packages/apps/Updater
+    files:
+      - app/src/main/res/values/strings.xml
