@@ -46,16 +46,16 @@
     <string name="restarting_launcher_changes">Đang khởi động lại trình khởi chạy để áp dụng thay đổi...</string>
     <string name="updating_launcher_components">Đang khởi động lại trình khởi chạy để cập nhật các thành phần...</string>
     <!-- All apps themed icons -->
-    <string name="pref_themed_icons_title">Sử dụng các biểu tượng theo chủ đề trong ngăn kéo</string>
-    <string name="pref_themed_icons_summary">Follow themed icons used on home screen</string>
+    <string name="pref_themed_icons_title">Sử dụng các biểu tượng theo chủ đề trong ngăn kéo ứng dụng</string>
+    <string name="pref_themed_icons_summary">Sử dụng biểu tượng theo chủ đề trên màn hình chính</string>
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">Khóa bố cục</string>
     <string name="settings_lock_layout_summary_on">Biểu tượng và widget không thể thêm, xóa và di chuyển trên màn hình chính</string>
     <string name="settings_lock_layout_summary_off">Biểu tượng và widget có thể thêm, xóa và di chuyển trên màn hình chính</string>
     <string name="settings_edit_widgets_error">Không thể thêm widget vào màn hình chính</string>
     <!-- Hide labels -->
-    <string name="desktop_show_labels">Show icon labels on desktop</string>
-    <string name="drawer_show_labels">Show icon labels in drawer</string>
+    <string name="desktop_show_labels">Hiển thị tên biểu tượng trên màn hình chính</string>
+    <string name="drawer_show_labels">Hiện tên biểu tượng nhãn trong ngăn kéo ứng dụng</string>
     <!-- Additional shape options in customization picker -->
     <string name="pebble_shape_title">Pebble</string>
     <string name="vessel_shape_title">Vessel</string>
@@ -73,14 +73,14 @@
     <string name="leaf_shape_title">Lá cây</string>
     <string name="meow_shape_title">Meow</string>
     <string name="samsung_style_shape_title">Kiểu Samsung</string>
-    <string name="scroll_shape_title">Scroll</string>
+    <string name="scroll_shape_title">Cuộn</string>
     <string name="stretched_shape_title">Kéo dài</string>
     <!-- Open keyboard -->
     <string name="drawer_open_keyboard_title">Vuốt để bắt đầu tìm kiếm</string>
     <string name="drawer_open_keyboard_summary">Mở bàn phím bất cứ khi nào ngăn kéo ứng dụng hiển thị</string>
     <!-- Search bar -->
-    <string name="pref_show_hotseat_qsb_title">Show search bar</string>
-    <string name="pref_show_hotseat_qsb_summary">At the bottom of your home screen</string>
+    <string name="pref_show_hotseat_qsb_title">Hiển thị thanh tìm kiếm</string>
+    <string name="pref_show_hotseat_qsb_summary">Ở cuối màn hình chính của bạn</string>
     <!-- DT2S -->
     <string name="pref_sleep_gesture_title">Nhấn hai lần để tắt màn hình</string>
     <string name="pref_sleep_gesture_summary">Nhấn hai lần vào khoảng trống trên màn hình chính để tắt màn hình</string>
@@ -100,8 +100,8 @@
     <!-- Background opacity -->
     <string name="background_opacity_title">Độ mờ nền</string>
     <!-- App drawer searchbar -->
-    <string name="drawer_search_title">App search bar</string>
-    <string name="drawer_search_summary">Search bar on top of the app drawer</string>
+    <string name="drawer_search_title">Thanh tìm kiếm ứng dụng</string>
+    <string name="drawer_search_summary">Thanh tìm kiếm trên đầu ngăn kéo ứng dụng</string>
     <!-- Wallpaper scrolling -->
     <string name="allow_wallpaper_scrolling">Cuộn hình nền</string>
     <string name="allow_wallpaper_scrolling_summary">Hiệu ứng cuộn hình nền cho nhiều màn hình</string>
@@ -109,8 +109,8 @@
     <string name="allow_wallpaper_zooming">Thu phóng hình nền</string>
     <string name="allow_wallpaper_zooming_summary">Phóng to hoặc thu nhỏ hình nền khi sử dụng ngăn kéo hoặc ứng dụng gần đây</string>
     <!-- Recents icons -->
-    <string name="recents_chips_title">Use compact action design</string>
-    <string name="recents_chips_summary">May be required for large numbers of actions to display</string>
+    <string name="recents_chips_title">Sử dụng thiết kế thao tác nhỏ gọn</string>
+    <string name="recents_chips_summary">Có thể cần thiết để hiển thị số lượng lớn các thao tác.</string>
     <string name="recents_screenshot_title">Chụp màn hình</string>
     <string name="recents_clear_all_title">Xóa tất cả</string>
     <string name="recents_lens_title">Ống kính</string>
