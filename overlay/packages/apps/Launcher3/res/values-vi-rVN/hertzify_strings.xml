@@ -46,7 +46,7 @@
     <string name="restarting_launcher_changes">Đang khởi động lại trình khởi chạy để áp dụng thay đổi...</string>
     <string name="updating_launcher_components">Đang khởi động lại trình khởi chạy để cập nhật các thành phần...</string>
     <!-- All apps themed icons -->
-    <string name="pref_themed_icons_title">Use themed icons in drawer</string>
+    <string name="pref_themed_icons_title">Sử dụng các biểu tượng theo chủ đề trong ngăn kéo</string>
     <string name="pref_themed_icons_summary">Follow themed icons used on home screen</string>
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">Khóa bố cục</string>
