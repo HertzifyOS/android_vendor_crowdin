@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 HertzifyOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Custom QS tiles -->
+    <!-- Ambient display QS tile -->
+    <string name="quick_settings_ambient_display_label">Ambient display</string>
+    <string name="accessibility_quick_settings_ambient_display_off">Ambient display off.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Ambient display on.</string>
+    <!-- AOD QS tile -->
+    <string name="quick_settings_aod_label">AOD</string>
+    <string name="quick_settings_aod_off_powersave_label">AOD off\nBattery saver</string>
+    <!-- Caffeine QS tile -->
+    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine off.</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine on.</string>
+    <!-- Heads up QS tile -->
+    <string name="quick_settings_heads_up_label">Heads up</string>
+    <string name="accessibility_quick_settings_heads_up_off">Heads up off.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Heads up on.</string>
+    <!-- Sync QS tile -->
+    <string name="quick_settings_sync_label">Sync</string>
+    <string name="accessibility_quick_settings_sync_off">Sync off.</string>
+    <string name="accessibility_quick_settings_sync_on">Sync on.</string>
+    <!-- USB tethering QS tile -->
+    <string name="quick_settings_usb_tether_label">USB tethering</string>
+    <!-- VPN QS tile -->
+    <string name="quick_settings_vpn_label">VPN</string>
+    <string name="quick_settings_vpn_connect_dialog_title">Connect to\u2026</string>
+    <string name="vpn_credentials_hint">Please enter your credentials for connecting to <xliff:g id="name">%s</xliff:g></string>
+    <string name="vpn_credentials_username">Username</string>
+    <string name="vpn_credentials_password">Password</string>
+    <string name="vpn_credentials_dialog_connect">Connect</string>
+    <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_delete_label">Delete</string>
+    <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
+    <string name="screenshot_delete_description">Delete screenshot</string>
+    <!-- Screen record -->
+    <string name="screenrecord_lowquality_label">Lower quality</string>
+    <string name="screenrecord_lowquality_summary">For smaller file size</string>
+    <string name="screenrecord_longer_timeout_switch_label">Larger file size limit</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Limit recording size to 15 GB</string>
+    <string name="screenrecord_skip_time_label">Skip timer</string>
+    <string name="screenrecord_skip_time_summary">Remove the 3 second wait</string>
+    <string name="screenrecord_hevc_switch_label">HEVC encoding</string>
+    <string name="screenrecord_hevc_switch_summary">Use the more efficient HEVC encoder</string>
+    <!-- QuickSettings: InternetDialog: Summary for how many devices are connected to the hotspot [CHAR LIMIT=NONE] -->
+    <plurals name="quick_settings_internet_hotspot_summary_num_devices">
+        <item quantity="one">%d device connected</item>
+        <item quantity="other">%d devices connected</item>
+    </plurals>
+    <!-- 5G toggle in Internet Dialog -->
+    <string name="enable_fiveg">Enable 5G</string>
+    <!-- Status bar - icons -->
+    <string name="status_bar_icons_title">Status bar icons</string>
+    <!-- Name of the firewall status bar icon. -->
+    <string name="status_bar_firewall">Firewall</string>
+    <!-- Name of the NFC status bar icon. -->
+    <string name="status_bar_nfc">NFC</string>
+    <string name="accessibility_status_bar_nfc">Nfc</string>
+    <!-- QS button to enable adaptive brightness -->
+    <string name="accessibility_adaptive_brightness">Adaptive brightness</string>
+    <!-- Text while recognizing face -->
+    <string name="face_unlock_recognizing">Recognizing face...</string>
+    <!-- Advanced restart menu -->
+    <!-- Button to indicate more options -->
+    <string name="global_action_restart_more">Restart\u2026</string>
+    <!-- Button to restart the device, within the Restart Options dialog -->
+    <string name="global_action_restart_system">System</string>
+    <!-- Button to restart the device into recovery mode, within the Restart Options dialog -->
+    <string name="global_action_restart_recovery">Recovery</string>
+    <!-- Button to restart the device into bootloader mode, within the Restart Options dialog -->
+    <string name="global_action_restart_bootloader">Bootloader</string>
+    <!-- Button to restart the device into download mode, within the Restart Options dialog -->
+    <string name="global_action_restart_download">Download</string>
+    <!-- Button to restart the device into fastboot mode, within the Restart Options dialog -->
+    <string name="global_action_restart_fastboot">Fastbootd</string>
+    <!-- Restart progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_progress">Restarting\u2026</string>
+    <!-- Restart to recovery mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_recovery_progress">Restarting to recovery mode\u2026</string>
+    <!-- Restart to bootloader mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_bootloader_progress">Restarting to bootloader mode\u2026</string>
+    <!-- Restart to download mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_download_progress">Restarting to download mode\u2026</string>
+    <!-- Restart to fastboot mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_fastboot_progress">Restarting to fastbootd mode\u2026</string>
+    <!-- Button to restart SystemUI, within the Restart Options dialog -->
+    <string name="global_action_restart_systemui">SystemUI</string>
+    <!-- Name of the clock in status bar [CHAR LIMIT=30] -->
+    <string name="clock">Clock</string>
+    <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+    <!-- Indication on the keyguard that is shown when the device is charging with a warp charger. Should match keyguard_plugged_in_warp_charging [CHAR LIMIT=40]-->
+    <!-- Indication on the keyguard that is shown when the device is charging with a VOOC charger. Should match keyguard_plugged_in_vooc_charging [CHAR LIMIT=40]-->
+    <!-- Indication on the keyguard that is shown when the device is charging with a turbo power charger. Should match keyguard_plugged_in_turbo_charging [CHAR LIMIT=40]-->
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Sound</string>
+    <string name="quick_settings_sound_ring">Ring</string>
+    <string name="quick_settings_sound_vibrate">Vibrate</string>
+    <string name="quick_settings_sound_mute">Mute</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Switch data card</string>
+    <!-- Language toggle tile -->
+    <string name="quick_settings_locale_label">Language</string>
+    <string name="quick_settings_locale_more_locales_toast">Configure multiple languages first</string>
+    <!-- Preferred network tile -->
+    <string name="quick_settings_preferred_network_label">Preferred network</string>
+    <string name="quick_settings_preferred_network_lte">4G / LTE</string>
+    <string name="quick_settings_preferred_network_nr">5G / NR</string>
+    <string name="quick_settings_preferred_network_unsupported">Unsupported</string>
+    <!-- Compass QS Tile -->
+    <string name="quick_settings_compass_label">Compass</string>
+    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_init">Initializing\u2026</string>
+    <string name="quick_settings_compass_N">N</string>
+    <string name="quick_settings_compass_NE">NE</string>
+    <string name="quick_settings_compass_E">E</string>
+    <string name="quick_settings_compass_SE">SE</string>
+    <string name="quick_settings_compass_S">S</string>
+    <string name="quick_settings_compass_SW">SW</string>
+    <string name="quick_settings_compass_W">W</string>
+    <string name="quick_settings_compass_NW">NW</string>
+    <!-- VPN tethering QS tile -->
+    <string name="vpn_tethering_label">VPN tethering</string>
+    <string name="vpn_tethering_changed_off">VPN tethering turned off.</string>
+    <string name="vpn_tethering_changed_on">VPN tethering turned on.</string>
+    <!-- Name of the Wi-Fi standard number in status bar -->
+    <string name="status_bar_wifi_standard">Wi-Fi standard number</string>
+    <!-- Name of the Data saver in status bar -->
+    <string name="status_bar_data_saver">Data saver</string>
+    <!-- Name of the privacy indicator icon in status bar -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="projection_privacy_indicator_title">Media projection privacy indicator</string>
+    <!-- Battery stats notification -->
+    <string name="battery_info_channel_name">Battery stats</string>
+    <string name="battery_info_notif_title">Battery</string>
+    <string name="battery_info_notif_now"><xliff:g id="current" example="775 mA">%1$s</xliff:g> · <xliff:g id="power" example="2.8 W">%2$s</xliff:g> · <xliff:g id="temp" example="36.5°">%3$s</xliff:g></string>
+    <string name="battery_info_notif_rates">Active <xliff:g id="active_rate" example="11.2%/h">%1$s</xliff:g>  ·  Idle <xliff:g id="idle_rate" example="4.1%/h">%2$s</xliff:g></string>
+    <string name="battery_info_notif_screen_on">Screen on <xliff:g id="duration" example="6h 10m 46s">%1$s</xliff:g>  ·  <xliff:g id="pct" example="69%">%2$s</xliff:g> (<xliff:g id="mah" example="3772 mAh">%3$s</xliff:g>)</string>
+    <string name="battery_info_notif_screen_off">Screen off <xliff:g id="duration" example="5h 5m 14s">%1$s</xliff:g>  ·  <xliff:g id="pct" example="20%">%2$s</xliff:g> (<xliff:g id="mah" example="1133 mAh">%3$s</xliff:g>)</string>
+    <string name="battery_info_notif_deep_sleep">Deep sleep <xliff:g id="duration" example="4h 0m 43s">%1$s</xliff:g>  ·  <xliff:g id="pct" example="78%">%2$s</xliff:g></string>
+    <string name="battery_info_notif_awake">Awake <xliff:g id="duration" example="1h 4m 31s">%1$s</xliff:g>  ·  <xliff:g id="pct" example="21%">%2$s</xliff:g></string>
+    <!-- Notification counter -->
+    <!-- Smart Pixels -->
+    <string name="quick_settings_smart_pixels_label">Smart Pixels</string>
+    <string name="quick_settings_smart_pixels_on">On</string>
+    <string name="quick_settings_smart_pixels_off">Off</string>
+    <string name="smart_pixels_percent_label">Pixel percentage</string>
+    <string name="smart_pixels_percent_format"><xliff:g id="percent" example="25">%d</xliff:g>%%</string>
+</resources>
