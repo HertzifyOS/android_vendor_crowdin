@@ -1,0 +1,21 @@
+files:
+- source: /source/frameworks/base/core/res/res/values/hertzify_strings.xml
+  translation: /overlay/frameworks/base/core/res/res/values-%android_code%/hertzify_strings.xml
+  translate_attributes: 0
+- source: /source/frameworks/base/packages/AppDataBackup/res/values/strings.xml
+  translation: /overlay/frameworks/base/packages/AppDataBackup/res/values-%android_code%/strings.xml
+  translate_attributes: 0
+- source: /source/frameworks/base/packages/SystemUI/res/values/hertzify_strings.xml
+  translation: /overlay/frameworks/base/packages/SystemUI/res/values-%android_code%/hertzify_strings.xml
+  translate_attributes: 0
+- source: /source/frameworks/base/packages/SystemUI/res/values/smartspace_strings.xml
+  translation: /overlay/frameworks/base/packages/SystemUI/res/values-%android_code%/smartspace_strings.xml
+  translate_attributes: 0
+- source: /source/packages/apps/Settings/HertzifySettings/res/values/hertzify_strings.xml
+  translation: /overlay/packages/apps/Settings/HertzifySettings/res/values-%android_code%/hertzify_strings.xml
+- source: /source/packages/apps/Launcher3/res/values/hertzify_strings.xml
+  translation: /overlay/packages/apps/Launcher3/res/values-%android_code%/hertzify_strings.xml
+- source: /source/packages/apps/Settings/res/values/hertzify_strings.xml
+  translation: /overlay/packages/apps/Settings/res/values-%android_code%/hertzify_strings.xml
+- source: /source/packages/apps/Updater/app/src/main/res/values/strings.xml
+  translation: /overlay/packages/apps/Updater/app/src/main/res/values-%android_code%/strings.xml
