@@ -24,7 +24,7 @@
     <string name="hertzify_about_summary">Về HertzifyOS</string>
     <!-- About Section Strings -->
     <string name="hertzify_about_info">HertzifyOS được thiết kế để giữ cho hệ thống của bạn vận hành nhịp nhàng — mang đến trải nghiệm AOSP thuần với khả năng tùy chỉnh mạnh mẽ ngay trong tầm tay</string>
-    <string name="hertzify_about_links_category_title">Official Links</string>
+    <string name="hertzify_about_links_category_title">Liên kết chính thức</string>
     <string name="hertzify_about_website_title">Website</string>
     <string name="hertzify_about_website_summary">Hãy ghé thăm website của chúng tôi</string>
     <string name="hertzify_about_telegram_summary">Tham gia Telegram của chúng tôi</string>
@@ -107,12 +107,12 @@
     <string name="spoof_pif_photos_title">Giả mạo Google Photos</string>
     <string name="spoof_pif_photos_summary">Cho phép sao lưu chất lượng gốc không giới hạn.</string>
     <string name="spoof_pif_failed">PIF lỗi: %s</string>
-    <string name="spoof_pif_error_no_devices_found">No canary devices found</string>
-    <string name="spoof_pif_error_no_apikey">Failed to extract Flash Tool API key</string>
-    <string name="spoof_pif_error_no_build_array">No flashstationBuild array in Flash Tool response</string>
-    <string name="spoof_pif_error_no_build">No canary build found for %s</string>
-    <string name="spoof_pif_error_no_canary_month">Failed to derive canary month id</string>
-    <string name="spoof_pif_error_fetch_failed">Failed to fetch canary PIF: %s</string>
+    <string name="spoof_pif_error_no_devices_found">Không tìm thấy thiết bị Canary</string>
+    <string name="spoof_pif_error_no_apikey">Không thể trích xuất khóa API của Flash Tool</string>
+    <string name="spoof_pif_error_no_build_array">Không tìm thấy mảng flashstationBuild trong phản hồi của Flash Tool.</string>
+    <string name="spoof_pif_error_no_build">Không tìm thấy bản dựng canary cho %s</string>
+    <string name="spoof_pif_error_no_canary_month">Không thể xác định ID tháng Canary</string>
+    <string name="spoof_pif_error_fetch_failed">Không thể tải PIF canary: %s</string>
     <!-- TrickyStore -->
     <string name="spoof_ts_title">TrickyStore</string>
     <string name="spoof_ts_summary">Quản lý keybox và ứng dụng mục tiêu cho attestation</string>
@@ -253,10 +253,10 @@
     <string name="status_bar_double_tap_to_sleep_title">Chạm để tắt màn hình</string>
     <string name="status_bar_double_tap_to_sleep_summary">Chạm hai lần vào thanh trạng thái hoặc màn hình khóa để tắt màn hình</string>
     <!-- Screen Off animation -->
-    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_title">Hoạt ảnh tắt màn hình</string>
     <string name="screen_off_animation_default">Mặc định</string>
     <string name="screen_off_animation_crt">CRT</string>
-    <string name="screen_off_animation_scale">Scale</string>
+    <string name="screen_off_animation_scale">Thu phóng</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Bỏ qua cờ bảo mật cửa sổ</string>
     <string name="ignore_window_secure_summary">Gỡ bỏ giới hạn chụp màn hình và quay màn hình cho tất cả ứng dụng. Điều này có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
@@ -264,7 +264,7 @@
     <string name="lockscreen_battery_info_title">Thông tin sạc trên màn hình khóa</string>
     <string name="lockscreen_battery_info_summary">Hiển thị dòng điện, điện áp, công suất và nhiệt độ khi đang sạc</string>
     <!-- Power menu -->
-    <string name="power_menu_lock_screen_secure_title">Power menu on secure lock screen</string>
+    <string name="power_menu_lock_screen_secure_title">Hiện khi menu nguồn ở màn hình khoá bảo mật</string>
     <string name="power_menu_lock_screen_secure_summary">Hiển thị menu nguồn khi thiết bị bị khóa</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Hiển thị bảng nhớ tạm nổi</string>
@@ -272,8 +272,8 @@
     <string name="status_bar_carrier_lock_screen_title">Tên nhà mạng trên màn hình khóa</string>
     <string name="status_bar_carrier_lock_screen_summary">Hiển thị tên nhà mạng trên thanh trạng thái màn hình khóa</string>
     <!-- Fingerprint unlock ripple animation -->
-    <string name="lock_screen_fingerprint_ripple_title">Ripple animation</string>
-    <string name="lock_screen_fingerprint_ripple_summary">Show ripple animation when unlocked with fingerprint</string>
+    <string name="lock_screen_fingerprint_ripple_title">Hiệu ứng gợn sóng</string>
+    <string name="lock_screen_fingerprint_ripple_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
     <!-- Colored icons -->
     <string name="status_bar_colored_icons_title">Biểu tượng có màu</string>
     <string name="status_bar_colored_icons_summary">Dùng biểu tượng của launcher cho thông báo ứng dụng</string>
@@ -281,10 +281,10 @@
     <string name="status_bar_notif_count_title">Đếm thông báo</string>
     <string name="status_bar_notif_count_summary">Hiển thị số lượng thông báo chưa đọc trên biểu tượng ứng dụng</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fp_error_vibrate_title">Fingerprint error vibration</string>
-    <string name="fp_error_vibrate_summary">Vibrate on error fingerprint authentication</string>
-    <string name="fp_success_vibrate_title">Fingerprint authentication vibration</string>
-    <string name="fp_success_vibrate_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fp_error_vibrate_title">Rung khi lỗi vân tay</string>
+    <string name="fp_error_vibrate_summary">Rung khi xác thực dấu vân tay lỗi</string>
+    <string name="fp_success_vibrate_title">Rung khi xác thực dấu vân tay</string>
+    <string name="fp_success_vibrate_summary">Rung khi xác thực vân tay thành công</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_warning_text">Điểm ảnh thông minh là một tính năng tiết kiệm pin. Tùy thuộc vào số điểm ảnh bạn quyết định tắt, bạn có thể thấy thời lượng pin được cải thiện. Lưu ý rằng trong một số trường hợp, nó có thể dẫn đến các khu vực không phản hồi trên màn hình cảm ứng</string>
     <string name="smart_pixels_title">Điểm ảnh thông minh</string>
@@ -302,6 +302,6 @@
     <string name="system_restart_yes">Có</string>
     <string name="system_restart_not_now">Để sau</string>
     <!-- Media player mode -->
-    <string name="qs_compact_media_player_mode_title">Compact media player</string>
-    <string name="qs_compact_media_player_mode_summary">Use compact mode for the quick settings media player</string>
+    <string name="qs_compact_media_player_mode_title">Trình phát nhạc thu gọn</string>
+    <string name="qs_compact_media_player_mode_summary">Sử dụng chế độ thu gọn cho trình phát nhạc</string>
 </resources>
