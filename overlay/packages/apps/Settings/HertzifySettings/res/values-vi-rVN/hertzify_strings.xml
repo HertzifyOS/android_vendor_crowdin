@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 HertzifyOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Hertzify Main Dashboard -->
+    <string name="hertzify_dashboard_title">Cài đặt Hertzify</string>
+    <string name="hertzify_dashboard_summary">Tinh chỉnh hệ thống của bạn đến đúng tần số</string>
+    <!-- Main Features -->
+    <string name="hertzify_status_bar_title">Thanh trạng thái</string>
+    <string name="hertzify_status_bar_summary">Cử chỉ, biểu tượng, chỉ báo quyền riêng tư</string>
+    <string name="hertzify_quick_settings_title">Cài đặt nhanh</string>
+    <string name="hertzify_quick_settings_summary">Giao diện, màn hình khoá</string>
+    <string name="hertzify_notifications_title">Thông báo</string>
+    <string name="hertzify_notifications_summary">Cảnh báo, giao diện</string>
+    <string name="hertzify_user_interface_title">Giao diện người dùng</string>
+    <string name="hertzify_user_interface_summary">Tùy chỉnh giao diện và trải nghiệm sử dụng thiết bị của bạn</string>
+    <string name="hertzify_lock_screen_title">Màn hình khoá</string>
+    <string name="hertzify_lock_screen_summary">Giao diện, mục khác</string>
+    <string name="hertzify_miscellaneous_title">Cài đặt khác</string>
+    <string name="hertzify_miscellaneous_summary">Tùy chọn nhà phát triển, spoofing</string>
+    <string name="hertzify_about_title">Giới thiệu</string>
+    <string name="hertzify_about_summary">Về HertzifyOS</string>
+    <!-- About Section Strings -->
+    <string name="hertzify_about_info">HertzifyOS được thiết kế để giữ cho hệ thống của bạn vận hành nhịp nhàng — mang đến trải nghiệm AOSP thuần với khả năng tùy chỉnh mạnh mẽ ngay trong tầm tay</string>
+    <string name="hertzify_about_links_category_title">Liên kết chính thức</string>
+    <string name="hertzify_about_website_title">Website</string>
+    <string name="hertzify_about_website_summary">Hãy ghé thăm website của chúng tôi</string>
+    <string name="hertzify_about_telegram_summary">Tham gia Telegram của chúng tôi</string>
+    <string name="hertzify_about_github_summary">Xem GitHub của chúng tôi</string>
+    <string name="hertzify_about_contributors_title">Những người đóng góp</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">theo mặc định</string>
+    <string name="custom_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ để đặt</string>
+    <string name="custom_seekbar_default_value_is_set">Giá trị mặc định đã được đặt</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Bộ chọn màu</string>
+    <string name="press_color_to_apply">Nhấn vào màu bên dưới để áp dụng</string>
+    <string name="set">Đặt</string>
+    <string name="color_default">Mặc định</string>
+    <string name="accent_color">Màu nhấn</string>
+    <string name="rainbow_color">Màu cầu vồng</string>
+    <string name="custom_color">Màu tùy chỉnh</string>
+    <!-- Proper seekbar -->
+    <string name="proper_seekbar_value">Giá trị: <xliff:g id="v">%s</xliff:g></string>
+    <string name="proper_seekbar_default_value">Mặc định</string>
+    <string name="proper_seekbar_default_value_to_set">Giá trị mặc định: <xliff:g id="v">%s</xliff:g>\nNhấn giữ để đặt</string>
+    <string name="proper_seekbar_default_value_is_set">Giá trị mặc định đã được đặt</string>
+    <!-- General -->
+    <string name="enable">Bật</string>
+    <string name="disable">Tắt</string>
+    <string name="default_value">Mặc định</string>
+    <string name="top">Trên cùng</string>
+    <string name="bottom">Dưới cùng</string>
+    <string name="reset">Đặt lại</string>
+    <string name="delete_message">Xóa mục đã chọn?</string>
+    <string name="choose_app">Chọn ứng dụng</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="search_apps">Tìm ứng dụng</string>
+    <string name="apply">Áp dụng</string>
+    <!-- Units -->
+    <string name="unit_hz">Hz</string>
+    <string name="unit_milliseconds">mili giây</string>
+    <string name="unit_seconds">giây</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Mục trong thanh trạng thái</string>
+    <string name="icon_manager_summary">Điều khiển hiển thị của các biểu tượng</string>
+    <!-- Heads-up -->
+    <string name="heads_up_notifications_enabled_title">Thông báo nổi</string>
+    <string name="heads_up_notifications_enabled_summary">Hiển thị thông báo ưu tiên trong cửa sổ nổi</string>
+    <!-- Brightness Slider -->
+    <string name="qs_show_brightness_slider_title">Thanh điều chỉnh độ sáng</string>
+    <string name="qs_show_brightness_slider_never">Không bao giờ hiển thị</string>
+    <string name="qs_show_brightness_slider_expanded">Hiển thị khi mở rộng</string>
+    <string name="qs_show_brightness_slider_always">Luôn hiển thị</string>
+    <string name="qs_brightness_slider_position_title">Vị trí</string>
+    <string name="qs_brightness_slider_position_top">Trên cùng</string>
+    <string name="qs_brightness_slider_position_bottom">Dưới cùng</string>
+    <string name="status_bar_brightness_slider_auto_title">Nút độ sáng tự động</string>
+    <string name="status_bar_brightness_slider_auto_summary">Hiển thị nút chuyển đổi cho độ sáng thích ứng gần thanh trượt</string>
+    <!-- Play Integrity Fix -->
+    <string name="spoof_pif_title">Play Integrity Fix</string>
+    <string name="spoof_pif_summary">Quản lý cấu hình PIF và fingerprint thiết bị</string>
+    <string name="spoof_pif_category">Cấu hình PIF</string>
+    <string name="spoof_pif_options_category">Tùy chọn PIF</string>
+    <string name="spoof_pif_fetch_title">Tải PIF</string>
+    <string name="spoof_pif_fetch_summary">Tải dữ liệu Canary PIF từ Google</string>
+    <string name="spoof_pif_fetching">Đang tải dữ liệu từ Google…</string>
+    <string name="spoof_pif_generating">Đang tạo cấu hình PIF</string>
+    <string name="spoof_pif_select_device">Chọn thiết bị để tải</string>
+    <string name="spoof_pif_fetched_model">Đã áp dụng PIF cho: %s</string>
+    <string name="spoof_pif_no_canary_devices">Không tìm thấy thiết bị Canary</string>
+    <string name="spoof_pif_import_title">Nhập PIF</string>
+    <string name="spoof_pif_import_summary">Nhập PIF từ tệp</string>
+    <string name="spoof_pif_imported_success">Nhập cấu hình thành công</string>
+    <string name="spoof_pif_delete_title">Xoá PIF</string>
+    <string name="spoof_pif_delete_summary">Xoá cấu hình PIF đang được dùng</string>
+    <string name="spoof_pif_delete_confirm_title">Xóa PIF đang dùng?</string>
+    <string name="spoof_pif_delete_confirm_message">Cấu hình PIF này sẽ bị xoá vĩnh viễn</string>
+    <string name="spoof_pif_delete_button">Xóa</string>
+    <string name="spoof_pif_delete_success">PIF đã xoá thành công</string>
+    <string name="spoof_pif_properties">Thuộc tính PIF</string>
+    <string name="spoof_pif_no_config">Chưa tải cấu hình PIF nào</string>
+    <string name="spoof_pif_config_details">Chi tiết cấu hình PIF</string>
+    <string name="spoof_pif_photos_title">Giả mạo Google Photos</string>
+    <string name="spoof_pif_photos_summary">Cho phép sao lưu chất lượng gốc không giới hạn.</string>
+    <string name="spoof_pif_failed">PIF lỗi: %s</string>
+    <string name="spoof_pif_error_no_devices_found">Không tìm thấy thiết bị Canary</string>
+    <string name="spoof_pif_error_no_apikey">Không thể trích xuất khóa API của Flash Tool</string>
+    <string name="spoof_pif_error_no_build_array">Không tìm thấy mảng flashstationBuild trong phản hồi của Flash Tool.</string>
+    <string name="spoof_pif_error_no_build">Không tìm thấy bản dựng canary cho %s</string>
+    <string name="spoof_pif_error_no_canary_month">Không thể xác định ID tháng Canary</string>
+    <string name="spoof_pif_error_fetch_failed">Không thể tải PIF canary: %s</string>
+    <!-- TrickyStore -->
+    <string name="spoof_ts_title">TrickyStore</string>
+    <string name="spoof_ts_summary">Quản lý keybox và ứng dụng mục tiêu cho attestation</string>
+    <string name="spoof_ts_keybox_management">Quản lý keybox</string>
+    <string name="spoof_ts_import_keybox">Nhập keybox</string>
+    <string name="spoof_ts_no_keybox">Chưa cài đặt keybox</string>
+    <string name="spoof_ts_keybox_installed">Đã cài keybox</string>
+    <string name="spoof_ts_keybox_imported">Nhập keybox thành công</string>
+    <string name="spoof_ts_delete_keybox">Xóa keybox</string>
+    <string name="spoof_ts_delete_keybox_summary">Xóa file keybox</string>
+    <string name="spoof_ts_delete_keybox_title">Xóa keybox?</string>
+    <string name="spoof_ts_delete_keybox_message">File keybox sẽ bị xóa vĩnh viễn.</string>
+    <string name="spoof_ts_delete">Xóa</string>
+    <string name="spoof_ts_keybox_deleted">Đã xóa keybox</string>
+    <string name="spoof_ts_target_configuration">Cấu hình mục tiêu</string>
+    <string name="spoof_ts_manage_target_apps">Quản lý ứng dụng mục tiêu</string>
+    <string name="spoof_ts_no_targets">Chưa cấu hình ứng dụng mục tiêu</string>
+    <string name="spoof_ts_target_apps_count">Đã cấu hình %d ứng dụng</string>
+    <string name="spoof_ts_import_target_list">Nhập danh sách mục tiêu</string>
+    <string name="spoof_ts_import_target_list_summary">Nhập target.txt từ tệp</string>
+    <string name="spoof_ts_target_list_imported">Đã nhập danh sách mục tiêu</string>
+    <string name="spoof_ts_search_apps">Tìm ứng dụng...</string>
+    <string name="spoof_ts_save">Lưu</string>
+    <string name="spoof_ts_targets_saved">Đã lưu danh sách mục tiêu</string>
+    <string name="spoof_ts_failed">Thất bại: %s</string>
+    <string name="spoof_ts_clear_targets_title">Xoá danh sách mục tiêu</string>
+    <string name="spoof_ts_clear_targets_summary">Xoá tất cả ứng dụng đã thêm trong danh sách </string>
+    <string name="spoof_ts_clear_targets_msg">Bạn có chắc chắn muốn xóa tất cả ứng dụng khỏi danh sách mục tiêu không?</string>
+    <string name="spoof_ts_targets_cleared">Danh sách mục tiêu đã xoá thành công</string>
+    <!-- App Spoofing -->
+    <string name="spoof_ap_title">Giả lập ứng dụng</string>
+    <string name="spoof_ap_summary">Giả lập thuộc tính thiết bị cho từng ứng dụng</string>
+    <string name="spoof_ap_enable">Bật giả lập ứng dụng</string>
+    <string name="spoof_ap_enable_summary">Giả lập thuộc tính thiết bị cho các ứng dụng đã cấu hình</string>
+    <string name="spoof_ap_add_app">Thêm ứng dụng</string>
+    <string name="spoof_ap_add_app_summary">Chọn ứng dụng và hồ sơ thiết bị để giả mạo</string>
+    <string name="spoof_ap_configured_apps">Ứng dụng đã cấu hình</string>
+    <string name="spoof_ap_no_apps">Chưa có ứng dụng nào được cấu hình</string>
+    <string name="spoof_ap_no_apps_summary">Nhấn \"Thêm ứng dụng\" để bắt đầu</string>
+    <string name="spoof_ap_select_app">Chọn ứng dụng</string>
+    <string name="spoof_ap_no_more_apps">Không cần thêm ứng dụng nào nữa</string>
+    <string name="spoof_ap_change_profile">Thay đổi</string>
+    <string name="spoof_ap_remove">Xóa</string>
+    <string name="spoof_ap_remove_app_title">Xóa ứng dụng?</string>
+    <string name="spoof_ap_remove_app_message">Xóa %s khỏi danh sách giả lập?</string>
+    <string name="spoof_ap_select_profile_for">Chọn hồ sơ cho %s</string>
+    <string name="spoof_ap_updated_to">Đã cập nhật: %s</string>
+    <string name="spoof_ap_deleted_success">%s đã  được xóa</string>
+    <string name="spoof_ap_search_apps">Tìm ứng dụng...</string>
+    <string name="spoof_ap_failed">Thất bại: %s</string>
+    <string name="spoof_ap_manage_profiles">Quản lý hồ sơ</string>
+    <string name="spoof_ap_manage_profiles_summary">Thêm, sửa hoặc xóa hồ sơ thiết bị</string>
+    <string name="spoof_ap_add_profile">Thêm hồ sơ</string>
+    <string name="spoof_ap_profile_name">Tên hồ sơ</string>
+    <string name="spoof_ap_hint_profile_name">ví dụ: ROG Phone của tôi</string>
+    <string name="spoof_ap_key_model">Kiểu máy (Model)</string>
+    <string name="spoof_ap_hint_model">ví dụ: SM-S928B</string>
+    <string name="spoof_ap_key_manufacturer">Nhà sản xuất (Manufacturer)</string>
+    <string name="spoof_ap_hint_manufacturer">ví dụ: samsung</string>
+    <string name="spoof_ap_key">Key</string>
+    <string name="spoof_ap_value">Value</string>
+    <string name="spoof_ap_add_prop">Thêm thuộc tính tuỳ chỉnh</string>
+    <string name="spoof_ap_use_profile">Dùng Profile</string>
+    <string name="spoof_ap_save_as_profile">Lưu Hồ sơ</string>
+    <string name="spoof_ap_save_profile">Lưu hồ sơ</string>
+    <string name="spoof_ap_no_profiles">Không có sẵn profile</string>
+    <string name="spoof_ap_select_profile">Chọn hồ sơ</string>
+    <string name="spoof_ap_required">Yêu cầu</string>
+    <string name="spoof_ap_error_empty_name">Tên không được bỏ trống</string>
+    <string name="spoof_ap_error_duplicate_name">Tên profile \"%s\" đã tồn tại</string>
+    <string name="spoof_ap_duplicate_config_title">Cấu hình trùng lặp</string>
+    <string name="spoof_ap_duplicate_config_message">Cấu hình này giống hệt với cấu hình \'%s\'</string>
+    <string name="spoof_ap_keep_both">Giữ cả hai</string>
+    <string name="spoof_ap_overwrite_existing">Ghi đè</string>
+    <string name="spoof_ap_profile_saved">Đã lưu hồ sơ</string>
+    <string name="spoof_ap_remove_profile">Xóa Hồ sơ</string>
+    <string name="spoof_ap_remove_profile_title">Xóa hồ sơ?</string>
+    <string name="spoof_ap_remove_profile_message">Xóa %s?</string>
+    <string name="spoof_ap_save">Lưu</string>
+    <string name="spoof_ap_profile_applied">Đã áp dụng: %1$s</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Ẩn trạng thái nhà phát triển</string>
+    <string name="hide_developer_status_summary">Ẩn trạng thái nhà phát triển khỏi các ứng dụng</string>
+    <!-- Hide applist -->
+    <string name="hide_applist_title">Ẩn danh sách ứng dụng</string>
+    <string name="hide_applist_summary">Ngăn ứng dụng kiểm tra các ứng dụng được chọn trong danh sách</string>
+    <string name="menu_show_overlay">Hiện overlay</string>
+    <string name="menu_hide_overlay">Ẩn overlay</string>
+    <!-- Status Bar Battery Percent -->
+    <string name="status_bar_battery_percent_title">Phần trăm pin</string>
+    <string name="status_bar_battery_percent_hidden">Ẩn</string>
+    <string name="status_bar_battery_percent_text_inside">Trong biểu tượng</string>
+    <string name="status_bar_battery_percent_text_next">Bên cạnh biểu tượng</string>
+    <!-- Status bar Battery Style -->
+    <string name="status_bar_battery_style_title">Kiểu pin</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Biểu tượng ngang</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_text">Văn bản</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn chấm</string>
+    <!-- Advanced Restart -->
+    <string name="advanced_reboot_title">Khởi động nâng cao</string>
+    <string name="advanced_reboot_summary">Hiển thị các tùy chọn khởi động khác trong menu nguồn</string>
+    <!-- Status bar/Clock & date-->
+    <string name="status_bar_clock_title">Ngày &amp; giờ</string>
+    <string name="status_bar_clock_summary">Tùy chỉnh đồng hồ &amp; ngày</string>
+    <string name="status_bar_clock_position_title">Kiểu đồng hồ</string>
+    <string name="status_bar_clock_position_right">Bên phải</string>
+    <string name="status_bar_clock_position_left">Bên trái</string>
+    <string name="status_bar_clock_position_center">Giữa</string>
+    <string name="status_bar_clock_seconds_title">Đồng hồ giây</string>
+    <string name="status_bar_clock_seconds_summary">Hiện giây trên đồng hồ ở thanh trạng thái</string>
+    <string name="status_bar_clock_auto_hide_title">Tự động ẩn</string>
+    <string name="status_bar_clock_auto_hide_summary">Ẩn đồng hồ khi đang ở màn hình chính</string>
+    <string name="status_bar_am_pm_title">Kiểu AM/PM</string>
+    <string name="status_bar_am_pm_info">Đồng hồ dạng 24 giờ được bật</string>
+    <string name="status_bar_am_pm_normal">Bình thường</string>
+    <string name="status_bar_am_pm_small">Nhỏ</string>
+    <string name="status_bar_am_pm_hidden">Ẩn</string>
+    <string name="status_bar_date_title">Ngày tháng</string>
+    <string name="status_bar_date_none">Ẩn</string>
+    <string name="status_bar_date_small">Nhỏ</string>
+    <string name="status_bar_date_normal">Bình thường</string>
+    <string name="status_bar_date_format_title">Định dạng ngày tháng</string>
+    <string name="status_bar_date_style">Kiểu ngày</string>
+    <string name="status_bar_date_style_normal">Bình thường</string>
+    <string name="status_bar_date_style_lowercase">Chữ thường</string>
+    <string name="status_bar_date_style_uppercase">Chữ hoa</string>
+    <string name="status_bar_date_format_custom">Định dạng Java tùy chỉnh</string>
+    <string name="status_bar_date_string_edittext_title">Phải theo định dạng DateFormat như MM/dd/yy</string>
+    <string name="status_bar_date_string_edittext_summary">Nhập chuỗi định dạng</string>
+    <string name="status_bar_clock_date_position">Vị trí ngày</string>
+    <string name="status_bar_clock_date_right">Bên phải giờ</string>
+    <string name="status_bar_clock_date_left">Bên trái giờ</string>
+    <!-- Allow application downgrade -->
+    <string name="miscellaneous_app_downgrade_title">Cho phép hạ bản cập nhập ứng dụng</string>
+    <string name="miscellaneous_app_downgrade_summary">Cho phép hạ cấp ứng dụng hệ thống, có thể dẫn đến sự cố và mất dữ liệu</string>
+    <!-- Double tap to sleep -->
+    <string name="status_bar_double_tap_to_sleep_title">Chạm để tắt màn hình</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Chạm hai lần vào thanh trạng thái hoặc màn hình khóa để tắt màn hình</string>
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Hoạt ảnh tắt màn hình</string>
+    <string name="screen_off_animation_default">Mặc định</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Thu phóng</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Bỏ qua cờ bảo mật cửa sổ</string>
+    <string name="ignore_window_secure_summary">Gỡ bỏ giới hạn chụp màn hình và quay màn hình cho tất cả ứng dụng. Điều này có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
+    <!-- Lockscreen battery info indicator -->
+    <string name="lockscreen_battery_info_title">Thông tin sạc trên màn hình khóa</string>
+    <string name="lockscreen_battery_info_summary">Hiển thị dòng điện, điện áp, công suất và nhiệt độ khi đang sạc</string>
+    <!-- Power menu -->
+    <string name="power_menu_lock_screen_secure_title">Hiện khi menu nguồn ở màn hình khoá bảo mật</string>
+    <string name="power_menu_lock_screen_secure_summary">Hiển thị menu nguồn khi thiết bị bị khóa</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Hiển thị bảng nhớ tạm nổi</string>
+    <string name="show_clipboard_overlay_summary">Hiển thị bảng nổi ở góc trái màn hình khi có nội dung được sao chép</string>
+    <string name="status_bar_carrier_lock_screen_title">Tên nhà mạng trên màn hình khóa</string>
+    <string name="status_bar_carrier_lock_screen_summary">Hiển thị tên nhà mạng trên thanh trạng thái màn hình khóa</string>
+    <!-- Fingerprint unlock ripple animation -->
+    <string name="lock_screen_fingerprint_ripple_title">Hiệu ứng gợn sóng</string>
+    <string name="lock_screen_fingerprint_ripple_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
+    <!-- Colored icons -->
+    <string name="status_bar_colored_icons_title">Biểu tượng có màu</string>
+    <string name="status_bar_colored_icons_summary">Dùng biểu tượng của launcher cho thông báo ứng dụng</string>
+    <!-- Notification counter -->
+    <string name="status_bar_notif_count_title">Đếm thông báo</string>
+    <string name="status_bar_notif_count_summary">Hiển thị số lượng thông báo chưa đọc trên biểu tượng ứng dụng</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fp_error_vibrate_title">Rung khi lỗi vân tay</string>
+    <string name="fp_error_vibrate_summary">Rung khi xác thực dấu vân tay lỗi</string>
+    <string name="fp_success_vibrate_title">Rung khi xác thực dấu vân tay</string>
+    <string name="fp_success_vibrate_summary">Rung khi xác thực vân tay thành công</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_warning_text">Điểm ảnh thông minh là một tính năng tiết kiệm pin. Tùy thuộc vào số điểm ảnh bạn quyết định tắt, bạn có thể thấy thời lượng pin được cải thiện. Lưu ý rằng trong một số trường hợp, nó có thể dẫn đến các khu vực không phản hồi trên màn hình cảm ứng</string>
+    <string name="smart_pixels_title">Điểm ảnh thông minh</string>
+    <string name="smart_pixels_summary">Tiết kiệm pin bằng cách tắt các điểm ảnh phụ</string>
+    <string name="smart_pixels_percent">Phần trăm điểm ảnh bị tắt</string>
+    <!-- SystemUI restart dialog -->
+    <string name="systemui_restart_title">Cần khởi động lại SystemUI</string>
+    <string name="systemui_restart_message">Để áp dụng thay đổi, cần khởi động lại SystemUI. Khởi động lại ngay?</string>
+    <string name="systemui_restart_yes">Có</string>
+    <string name="systemui_restart_not_now">Để sau</string>
+    <string name="systemui_restart_process">Đang khởi động lại SystemUI để áp dụng thay đổi...</string>
+    <!-- System restart dialog -->
+    <string name="system_restart_title">Yêu cầu khởi động lại hệ thống</string>
+    <string name="system_restart_message">Để tất cả thay đổi có hiệu lực, cần khởi động lại hệ thống. Khởi động lại hệ thống ngay bây giờ?</string>
+    <string name="system_restart_yes">Có</string>
+    <string name="system_restart_not_now">Để sau</string>
+    <!-- Media player mode -->
+    <string name="qs_compact_media_player_mode_title">Trình phát nhạc thu gọn</string>
+    <string name="qs_compact_media_player_mode_summary">Sử dụng chế độ thu gọn cho trình phát nhạc</string>
+    <!-- Floating rotation button -->
+    <string name="floating_rotation_button_title">Nút xoay nổi</string>
+    <string name="floating_rotation_button_summary">Hiển thị nút xoay nổi khi thiết bị được xoay</string>
+    <!-- Notifications -->
+    <string name="notifications_sounds_vibration_category">Âm thanh &amp; rung</string>
+    <string name="notifications_alert_display_on_title">Thông báo khi màn hình bật</string>
+    <string name="notifications_alert_display_on_summary">Phát âm thanh và rung khi có thông báo trong khi màn hình đang bật</string>
+</resources>
