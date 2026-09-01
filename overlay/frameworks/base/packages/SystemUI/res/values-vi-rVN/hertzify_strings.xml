@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 HertzifyOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Custom QS tiles -->
+    <!-- Ambient display QS tile -->
+    <string name="quick_settings_ambient_display_label">Màn hình luôn bật</string>
+    <string name="accessibility_quick_settings_ambient_display_off"> Ambient Display đã tắt.</string>
+    <string name="accessibility_quick_settings_ambient_display_on">Ambient Display đã bật.</string>
+    <!-- AOD QS tile -->
+    <string name="quick_settings_aod_label">AOD</string>
+    <string name="quick_settings_aod_off_powersave_label">AOD đã tắt\nTiết kiệm pin</string>
+    <!-- Caffeine QS tile -->
+    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine đã tắt.</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine đã bật.</string>
+    <!-- Heads up QS tile -->
+    <string name="quick_settings_heads_up_label">Heads-up</string>
+    <string name="accessibility_quick_settings_heads_up_off">Heads-up đã tắt.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Heads-up đã bật.</string>
+    <!-- Sync QS tile -->
+    <string name="quick_settings_sync_label">Đồng bộ</string>
+    <string name="accessibility_quick_settings_sync_off">Đồng bộ đã tắt.</string>
+    <string name="accessibility_quick_settings_sync_on">Đồng bộ đã bật.</string>
+    <!-- USB tethering QS tile -->
+    <string name="quick_settings_usb_tether_label">Chia sẻ mạng qua USB</string>
+    <!-- VPN QS tile -->
+    <string name="quick_settings_vpn_label">VPN</string>
+    <string name="quick_settings_vpn_connect_dialog_title">Kết nối tới\u2026</string>
+    <string name="vpn_credentials_hint">Vui lòng nhập thông tin đăng nhập để kết nối tới <xliff:g id="name">%s</xliff:g></string>
+    <string name="vpn_credentials_username">Tên người dùng</string>
+    <string name="vpn_credentials_password">Mật khẩu</string>
+    <string name="vpn_credentials_dialog_connect">Kết nối</string>
+    <!-- Label for UI element which allows deleting the screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_delete_label">Xóa</string>
+    <!-- Content description indicating that tapping the element will allow deleting the screenshot [CHAR LIMIT=NONE] -->
+    <string name="screenshot_delete_description">Xóa ảnh chụp màn hình</string>
+    <!-- Screen record -->
+    <string name="screenrecord_lowquality_label">Chất lượng thấp hơn</string>
+    <string name="screenrecord_lowquality_summary">Để giảm kích thước tệp</string>
+    <string name="screenrecord_longer_timeout_switch_label">Giới hạn kích thước tệp lớn hơn</string>
+    <string name="screenrecord_longer_timeout_switch_summary">Giới hạn kích thước ghi hình tối đa 15 GB</string>
+    <string name="screenrecord_skip_time_label">Bỏ qua bộ đếm thời gian</string>
+    <string name="screenrecord_skip_time_summary">Bỏ thời gian chờ 3 giây</string>
+    <string name="screenrecord_hevc_switch_label">Mã hóa HEVC</string>
+    <string name="screenrecord_hevc_switch_summary">Sử dụng bộ mã hóa HEVC hiệu quả hơn</string>
+    <!-- QuickSettings: InternetDialog: Summary for how many devices are connected to the hotspot [CHAR LIMIT=NONE] -->
+    <plurals name="quick_settings_internet_hotspot_summary_num_devices">
+        <item quantity="other">%d thiết bị đã kết nối</item>
+    </plurals>
+    <!-- 5G toggle in Internet Dialog -->
+    <string name="enable_fiveg">Bật 5G</string>
+    <!-- Status bar - icons -->
+    <string name="status_bar_icons_title">Biểu tượng thanh trạng thái</string>
+    <!-- Name of the firewall status bar icon. -->
+    <string name="status_bar_firewall">Firewall</string>
+    <!-- Name of the NFC status bar icon. -->
+    <string name="status_bar_nfc">NFC</string>
+    <string name="accessibility_status_bar_nfc">NFC</string>
+    <!-- QS button to enable adaptive brightness -->
+    <string name="accessibility_adaptive_brightness">Độ sáng thích ứng</string>
+    <!-- Text while recognizing face -->
+    <string name="face_unlock_recognizing">Đang nhận diện khuôn mặt...</string>
+    <!-- Advanced restart menu -->
+    <!-- Button to indicate more options -->
+    <string name="global_action_restart_more">Khởi động lại\u2026</string>
+    <!-- Button to restart the device, within the Restart Options dialog -->
+    <string name="global_action_restart_system">Hệ thống</string>
+    <!-- Button to restart the device into recovery mode, within the Restart Options dialog -->
+    <string name="global_action_restart_recovery">Recovery</string>
+    <!-- Button to restart the device into bootloader mode, within the Restart Options dialog -->
+    <string name="global_action_restart_bootloader">Bootloader</string>
+    <!-- Button to restart the device into download mode, within the Restart Options dialog -->
+    <string name="global_action_restart_download">Download</string>
+    <!-- Button to restart the device into fastboot mode, within the Restart Options dialog -->
+    <string name="global_action_restart_fastboot">Fastboot</string>
+    <!-- Restart progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_progress">Đang khởi động lại\u2026</string>
+    <!-- Restart to recovery mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_recovery_progress">Đang khởi động lại vào chế độ recovery\u2026</string>
+    <!-- Restart to bootloader mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_bootloader_progress">Đang khởi động lại vào chế độ bootloader\u2026</string>
+    <!-- Restart to download mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_download_progress">Đang khởi động lại vào chế độ download\u2026</string>
+    <!-- Restart to fastboot mode progress dialog. This is shown if the user chooses to restart the device. -->
+    <string name="global_action_restart_fastboot_progress">Đang khởi động lại vào chế độ fastbootd\u2026</string>
+    <!-- Button to restart SystemUI, within the Restart Options dialog -->
+    <string name="global_action_restart_systemui">SystemUI</string>
+    <!-- Name of the clock in status bar [CHAR LIMIT=30] -->
+    <string name="clock">Đồng hồ</string>
+    <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+    <!-- Indication on the keyguard that is shown when the device is charging with a warp charger. Should match keyguard_plugged_in_warp_charging [CHAR LIMIT=40]-->
+    <!-- Indication on the keyguard that is shown when the device is charging with a VOOC charger. Should match keyguard_plugged_in_vooc_charging [CHAR LIMIT=40]-->
+    <!-- Indication on the keyguard that is shown when the device is charging with a turbo power charger. Should match keyguard_plugged_in_turbo_charging [CHAR LIMIT=40]-->
+    <!-- Sound QS Tile -->
+    <string name="quick_settings_sound_label">Âm thanh</string>
+    <string name="quick_settings_sound_ring">Chuông</string>
+    <string name="quick_settings_sound_vibrate">Rung</string>
+    <string name="quick_settings_sound_mute">Im lặng</string>
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Chuyển SIM dữ liệu</string>
+    <!-- Language toggle tile -->
+    <string name="quick_settings_locale_label">Ngôn ngữ</string>
+    <string name="quick_settings_locale_more_locales_toast">Hãy cấu hình nhiều ngôn ngữ trước</string>
+    <!-- Preferred network tile -->
+    <string name="quick_settings_preferred_network_label">Mạng ưu tiên</string>
+    <string name="quick_settings_preferred_network_lte">4G / LTE</string>
+    <string name="quick_settings_preferred_network_nr">5G / NR</string>
+    <string name="quick_settings_preferred_network_unsupported">Không hỗ trợ</string>
+    <!-- Compass QS Tile -->
+    <string name="quick_settings_compass_label">La bàn</string>
+    <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+    <string name="quick_settings_compass_init">Đang khởi tạo\u2026</string>
+    <string name="quick_settings_compass_N">B</string>
+    <string name="quick_settings_compass_NE">ĐB</string>
+    <string name="quick_settings_compass_E">Đ</string>
+    <string name="quick_settings_compass_SE">ĐN</string>
+    <string name="quick_settings_compass_S">N</string>
+    <string name="quick_settings_compass_SW">TN</string>
+    <string name="quick_settings_compass_W">T</string>
+    <string name="quick_settings_compass_NW">TB</string>
+    <!-- VPN tethering QS tile -->
+    <string name="vpn_tethering_label">Chia sẻ VPN</string>
+    <string name="vpn_tethering_changed_off">Đã tắt chia sẻ VPN.</string>
+    <string name="vpn_tethering_changed_on">Đã bật chia sẻ VPN.</string>
+    <!-- Name of the Wi-Fi standard number in status bar -->
+    <string name="status_bar_wifi_standard">Chuẩn Wi-Fi</string>
+    <!-- Name of the Data saver in status bar -->
+    <string name="status_bar_data_saver">Trình tiết kiệm dữ liệu</string>
+    <!-- Name of the privacy indicator icon in status bar -->
+    <string name="mic_camera_privacy_indicator_title">Chỉ báo quyền riêng tư mic và camera</string>
+    <string name="location_privacy_indicator_title">Chỉ báo quyền riêng tư vị trí</string>
+    <string name="projection_privacy_indicator_title">Chỉ báo quyền riêng tư trình chiếu phương tiện</string>
+    <!-- Battery stats notification -->
+    <string name="battery_info_channel_name">Thống kê sử dụng pin</string>
+    <string name="battery_info_notif_title">Tiết kiệm pin</string>
+    <string name="battery_info_notif_now">]<xliff:g id="current" example="775 mA">%1$s</xliff:g> · <xliff:g id="power" example="2.8 W">%2$s</xliff:g> · <xliff:g id="temp" example="36.5°">%3$s</xliff:g></string>
+    <string name="battery_info_notif_rates">Hoạt động <xliff:g id="active_rate" example="11.2%/h">%1$s</xliff:g> · Chờ <xliff:g id="idle_rate" example="4.1%/h">%2$s</xliff:g></string>
+    <string name="battery_info_notif_screen_on">Màn hình bật <xliff:g id="duration" example="6h 10m 46s">%1$s</xliff:g>  ·  <xliff:g id="pct" example="69%">%2$s</xliff:g> (<xliff:g id="mah" example="3772 mAh">%3$s</xliff:g>)</string>
+    <string name="battery_info_notif_screen_off">Màn hình tắt <xliff:g id="duration" example="5h 5m 14s">%1$s</xliff:g>  ·  <xliff:g id="pct" example="20%">%2$s</xliff:g> (<xliff:g id="mah" example="1133 mAh">%3$s</xliff:g>)</string>
+    <string name="battery_info_notif_deep_sleep">Ngủ sâu <xliff:g id="duration" example="4h 0m 43s">%1$s</xliff:g>  ·  <xliff:g id="pct" example="78%">%2$s</xliff:g></string>
+    <string name="battery_info_notif_awake">Thức <xliff:g id="duration" example="1h 4m 31s">%1$s</xliff:g> · <xliff:g id="pct" example="21%">%2$s</xliff:g></string>
+    <!-- Notification counter -->
+    <!-- Smart Pixels -->
+    <string name="quick_settings_smart_pixels_label">Điểm ảnh thông minh</string>
+    <string name="quick_settings_smart_pixels_on">Bật</string>
+    <string name="quick_settings_smart_pixels_off">Tắt</string>
+    <string name="smart_pixels_percent_label">Tỷ lệ phần trăm pixel</string>
+    <string name="smart_pixels_percent_format"><xliff:g id="percent" example="25">%d</xliff:g>%%</string>
+    <!-- Flashlight Strength -->
+    <string name="flashlight_strength_title">Độ sáng của đèn pin</string>
+    <string name="flashlight_strength_turn_off">Tắt</string>
+    <string name="flashlight_strength_turn_on">Bật</string>
+    <!-- Per-app volume -->
+    <string name="app_volume">Âm lượng ứng dụng</string>
+    <string name="no_playing_apps">Không có ứng dụng nào đang phát âm thanh</string>
+</resources>
