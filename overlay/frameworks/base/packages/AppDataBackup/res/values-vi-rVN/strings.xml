@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 VoltageOS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Sao lưu dữ liệu ứng dụng</string>
+    <string name="tab_apps">Ứng dụng</string>
+    <string name="tab_backups">Bản sao lưu</string>
+    <string name="backup_selected">Sao lưu đã chọn</string>
+    <string name="restore">Khôi phục</string>
+    <string name="verify">Xác minh</string>
+    <string name="delete">Xóa</string>
+    <string name="backup_complete">Sao lưu hoàn tất</string>
+    <string name="restore_complete">Khôi phục hoàn tất - hãy mở lại ứng dụng</string>
+    <string name="cancel">Hủy</string>
+    <string name="select_at_least_one">Chọn ít nhất một ứng dụng</string>
+    <string name="confirm_restore_title">Khôi phục %1$s?</string>
+    <string name="confirm_restore_message">Thao tác này sẽ cài đặt lại APK và ghi đè toàn bộ dữ liệu ứng dụng.\nỨng dụng sẽ bị buộc dừng trong quá trình khôi phục.</string>
+    <string name="confirm_delete_title">Xóa bản sao lưu?</string>
+    <string name="confirm_delete_message">Xóa bản sao lưu của %1$s?\nHành động này không thể hoàn tác.</string>
+    <string name="backup_headline">Sao lưu ứng dụng của bạn</string>
+    <string name="backup_subheadline">Lưu ảnh chụp ứng dụng và dữ liệu của chúng để khôi phục bất cứ lúc nào.</string>
+    <string name="summary_empty_count">Chưa chọn ứng dụng nào</string>
+    <string name="summary_empty_size">Chọn ứng dụng để sao lưu</string>
+    <string name="summary_count">Đã chọn %1$d ứng dụng</string>
+    <string name="summary_count_one">Đã chọn 1 ứng dụng</string>
+    <string name="summary_size">Khoảng %1$s sẽ được lưu trữ</string>
+    <string name="chip_exclude_cache">Loại trừ bộ nhớ đệm</string>
+    <string name="action_select_all">Chọn tất cả</string>
+    <string name="action_clear">Bỏ chọn</string>
+    <string name="fab_backup_count">Sao lưu (%1$d)</string>
+    <string name="fab_restore_count">Khôi phục %1$d)</string>
+    <string name="action_delete_selected">Xóa mục đã chọn</string>
+    <string name="select_at_least_one_backup">Chọn ít nhất một bản sao lưu</string>
+    <string name="confirm_restore_selected_title">Khôi phục %1$d bản sao lưu?</string>
+    <string name="confirm_delete_selected_title">Xóa %1$d bản sao lưu?</string>
+    <string name="confirm_delete_selected_message">Các bản sao lưu đã chọn sẽ bị xóa vĩnh viễn. Không thể hoàn tác thao tác này.</string>
+    <string name="progress_restoring">Đang chuẩn bị khôi phục\u2026</string>
+    <string name="batch_passphrase_title">Đã chọn bản sao lưu được mã hóa</string>
+    <string name="batch_passphrase_message">Một hoặc nhiều bản sao lưu đã chọn được mã hóa. Nhập mật khẩu đã sử dụng khi tạo chúng. Tất cả các bản sao lưu được mã hóa này phải có cùng mật khẩu.</string>
+    <string name="passphrase_required">Yêu cầu mật khẩu</string>
+    <string name="backup_options_title">Tùy chọn sao lưu</string>
+    <string name="section_encryption">Mã hóa</string>
+    <string name="section_include">Bao gồm</string>
+    <string name="section_retention">Lưu giữ</string>
+    <string name="hint_passphrase">Mật khẩu (để trống = không mã hóa)</string>
+    <string name="hint_keep">Giữ N bản sao lưu gần nhất (để trống = giữ tất cả)</string>
+    <string name="comp_apk">APK</string>
+    <string name="comp_app_data">Dữ liệu ứng dụng</string>
+    <string name="comp_de_data">Dữ liệu được bảo vệ bởi thiết bị</string>
+    <string name="comp_external">Bộ nhớ ngoài</string>
+    <string name="select_one_component">Chọn ít nhất một thành phần</string>
+    <string name="action_back_up">Sao lưu</string>
+    <string name="content_includes">Bao gồm %1$s</string>
+    <string name="content_apk">Ứng dụng (APK)</string>
+    <string name="content_app_data">Dữ liệu ứng dụng</string>
+    <string name="content_device_data">Dữ liệu được bảo vệ</string>
+    <string name="content_external">Bộ nhớ ngoài</string>
+    <string name="content_permissions">Quyền và cài đặt</string>
+    <string name="content_encrypted">Đã mã hóa</string>
+    <string name="hint_passphrase_confirm">Xác nhận mật khẩu</string>
+    <string name="passphrase_mismatch">Mật khẩu không khớp</string>
+    <string name="hint_search">Tìm ứng dụng</string>
+    <string name="action_sort">Sắp xếp</string>
+    <string name="sort_by_name">Sắp xếp theo tên</string>
+    <string name="sort_by_size">Sắp xếp theo kích thước</string>
+    <string name="last_backup">Bản sao lưu cuối cùng: %1$s</string>
+    <string name="last_backup_never">Chưa từng sao lưu</string>
+    <string name="backup_opt_out">Không tham gia sao lưu</string>
+    <string name="not_enough_space_title">Không đủ dung lượng</string>
+    <string name="not_enough_space_message">Một số ứng dụng được chọn yêu cầu khoảng %1$s dung lượng nhưng chỉ %2$s  khả dụng</string>
+    <string name="backup_anyway">Vẫn sao lưu</string>
+    <string name="restore_downgrade_warning">Cũ hơn phiên bản đã cài đặt: %1$s</string>
+    <string name="verify_all">Xác minh tất cả</string>
+    <string name="verify_failed_badge">Xác minh không thành công</string>
+    <string name="verify_all_message">Kiểm tra mã checksum của mọi bản sao lưu. Nhập mật khẩu để bao gồm các bản sao lưu được mã hóa, hoặc để trống để bỏ qua chúng.</string>
+    <string name="verify_all_result">%1$d hợp lệ · %2$d lỗi · %3$d đã bỏ qua</string>
+    <string name="results_title_backup">Kết quả sao lưu</string>
+    <string name="results_title_restore">Kết quả khôi phục</string>
+    <string name="deleted_backup">Đã xóa %1$s</string>
+    <string name="undo">Hoàn tác</string>
+    <string name="export">Xuất</string>
+    <string name="export_message">Sao chép bản sao lưu của %1$s vào thư mục Tải xuống của bạn?</string>
+    <string name="export_done">Đã lưu vào %1$s</string>
+    <string name="export_failed">Xuất thất bại</string>
+</resources>
