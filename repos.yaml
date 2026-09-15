@@ -7,7 +7,7 @@ repos:
     files:
       - core/res/res/values/hertzify_strings.xml
       - packages/SystemUI/res/values/hertzify_strings.xml
-      - packages/SystemUI/res/values/smartspace_strings.xml
+      - packages/SystemUI/bcsmartspace/res/values/smartspace_strings.xml
 
   - name: HertzifyOS/android_packages_apps_Settings
     path: packages/apps/Settings
