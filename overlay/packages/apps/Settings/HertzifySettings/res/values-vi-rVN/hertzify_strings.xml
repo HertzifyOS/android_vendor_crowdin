@@ -292,4 +292,7 @@
     <!-- Hide status bar in screenshots -->
     <string name="hide_status_bar_in_screenshot_title">Ẩn thanh trạng thái trong ảnh chụp màn hình</string>
     <string name="hide_status_bar_in_screenshot_summary">Loại bỏ thanh trạng thái khỏi ảnh chụp toàn màn hình</string>
+    <!-- Notifications/Compact Heads-up -->
+    <string name="compact_heads_up_notifications_enabled_title">Thông báo nổi thu gọn</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Hiển thị thông báo nổi ở dạng nhỏ gọn</string>
 </resources>
