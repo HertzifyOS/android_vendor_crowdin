@@ -128,4 +128,23 @@
     <string name="remove_all_views_from_home_screen_desc">Màn hình chính sẽ bị xóa sạch. Bạn có muốn tiếp tục không?</string>
     <!-- Message shown when all home screen views are removed -->
     <string name="home_screen_all_views_removed_msg">Đã xóa toàn bộ màn hình chính</string>
+    <!-- A widget category label for grouping widgets related to battery. [CHAR_LIMIT=30] -->
+    <string name="widget_category_battery">Pin</string>
+    <!-- A widget category label for grouping widgets related to weather. [CHAR_LIMIT=30] -->
+    <string name="widget_category_weather">Thời tiết</string>
+    <!-- Pause apps shortcut -->
+    <string name="pause">Tạm dừng</string>
+    <string name="pause_apps_dialog_title">Tạm dừng %1$s?</string>
+    <string name="pause_apps_dialog_message">Thông báo cho %1$s sẽ bị tạm dừng</string>
+    <string name="paused_apps_dialog_title">Ứng dụng đã bị tạm dừng</string>
+    <string name="paused_apps_dialog_message">%1$s đã bị tạm dừng trực tiếp từ trình khởi chạy</string>
+    <string name="paused_apps_drop_target_label">Tạm dừng ứng dụng</string>
+    <string name="work_apps_paused_title_custom">Ứng dụng công việc đã tắt</string>
+    <string name="work_apps_pause_btn_text_custom">Tắt các ứng dụng công việc</string>
+    <string name="work_apps_enable_btn_text_custom">Bật các ứng dụng công việc</string>
+    <string name="work_apps_paused_info_body_custom">Ứng dụng công việc không thể gửi thông báo và sử dụng pin hoặc truy cập thông tin vị trí</string>
+    <string name="work_apps_paused_telephony_unavailable_body_custom">Ứng dụng công việc không thể nhận cuộc gọi điện thoại hoặc tin nhắn văn bản, gửi thông báo, sử dụng pin hoặc truy cập vị trí</string>
+    <!-- Smartspace -->
+    <string name="smartspace_pref_title">Xem nhanh</string>
+    <string name="smartspace_pref_summary">Hiển thị không gian thông minh ở trên cùng Màn hình chính</string>
 </resources>
