@@ -344,4 +344,8 @@
     <!-- Hide status bar in screenshots -->
     <string name="hide_status_bar_in_screenshot_title">Hide status bar in screenshots</string>
     <string name="hide_status_bar_in_screenshot_summary">Crop the status bar area out of full screenshots</string>
+
+    <!-- Notifications/Compact Heads-up -->
+    <string name="compact_heads_up_notifications_enabled_title">Compact heads-up</string>
+    <string name="compact_heads_up_notifications_enabled_summary">Display notifications in compact size</string>
 </resources>
