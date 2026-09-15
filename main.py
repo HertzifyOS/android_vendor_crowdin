@@ -155,6 +155,38 @@ def write_source_file(task: FileTask, response: Response) -> None:
     log.info("Saved %s", dest)
 
 
+def prune_stale_source_files(tasks: list[FileTask]) -> None:
+    """Remove files under SOURCE_DIR that are no longer referenced by any task,
+    and clean up any directories left empty afterwards."""
+    if not SOURCE_DIR.exists():
+        return
+
+    expected = {
+        (SOURCE_DIR / task.repo_path / task.file_path).resolve()
+        for task in tasks
+    }
+
+    removed = 0
+    for path in SOURCE_DIR.rglob("*"):
+        if path.is_file() and path.resolve() not in expected:
+            path.unlink()
+            log.info("Removed stale source file %s", path)
+            removed += 1
+
+    for dirpath in sorted(
+        (p for p in SOURCE_DIR.rglob("*") if p.is_dir()),
+        key=lambda p: len(p.parts),
+        reverse=True,
+    ):
+        try:
+            dirpath.rmdir()
+        except OSError:
+            pass
+
+    if removed:
+        log.info("Pruned %d stale source file(s)", removed)
+
+
 def build_crowdin_entry(task: FileTask) -> dict[str, str | int]:
     translation_file = task.file_path.replace("values", "values-%android_code%")
     entry: dict[str, str | int] = {
@@ -177,6 +209,8 @@ async def main() -> None:
     log.info("Fetching %d files from %d repos...", len(tasks), len(repos))
 
     responses = await fetch_all(tasks, github_token)
+
+    prune_stale_source_files(tasks)
 
     files_entries = []
     for task, response in zip(tasks, responses):
