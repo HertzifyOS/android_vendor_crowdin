@@ -160,4 +160,12 @@
     <string name="no_playing_apps">No applications are playing audio</string>
     <!-- Label for UI element which writes a clipboard-only screenshot to storage [CHAR LIMIT=30] -->
     <string name="screenshot_save_to_storage_label">Save to storage</string>
+    <!-- Label for UI element which allows to use lens on screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_lens_label">Lens</string>
+    <!-- Auto reboot Suggestion/Reminder -->
+    <string name="notification_channel_reboot_suggestion">Reboot Suggestion</string>
+    <string name="notification_channel_reboot_suggestion_description">Notifications for Reboot Suggestion</string>
+    <string name="reboot_suggestion_title">Reboot Reminder</string>
+    <string name="reboot_suggestion_description">Your device has been on for over a week. Rebooting is recommended.</string>
+    <string name="reboot_suggestion_now">Reboot</string>
 </resources>
