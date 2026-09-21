@@ -115,7 +115,6 @@
     <!-- TrickyStore -->
     <string name="spoof_ts_title">TrickyStore</string>
     <string name="spoof_ts_summary">Quản lý keybox và ứng dụng mục tiêu cho attestation</string>
-    <string name="spoof_ts_header_active">Keybox hoạt động • %d mục tiêu</string>
     <string name="spoof_ts_keybox_management">Quản lý Keybox</string>
     <string name="spoof_ts_import_keybox">Nhập keybox</string>
     <string name="spoof_ts_no_keybox">Chưa cài đặt keybox</string>
@@ -129,6 +128,7 @@
     <string name="spoof_ts_keybox_deleted">Đã xóa keybox</string>
     <string name="spoof_ts_target_configuration">Cấu hình mục tiêu</string>
     <string name="spoof_ts_manage_target_apps">Quản lý ứng dụng mục tiêu</string>
+    <string name="spoof_ts_manage_target_apps_summary">Choose apps and spoof mode for each app</string>
     <string name="spoof_ts_no_targets">Chưa cấu hình ứng dụng mục tiêu</string>
     <string name="spoof_ts_target_apps_count">Đã cấu hình • %d ứng dụng</string>
     <string name="spoof_ts_import_target_list">Nhập danh sách mục tiêu</string>
