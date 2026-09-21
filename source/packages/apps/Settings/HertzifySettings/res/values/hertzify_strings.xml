@@ -137,7 +137,6 @@
     <!-- TrickyStore -->
     <string name="spoof_ts_title">TrickyStore</string>
     <string name="spoof_ts_summary">Manage keybox and target apps for attestation</string>
-    <string name="spoof_ts_header_active">Keybox Active • %d Targets</string>
     <string name="spoof_ts_keybox_management">Keybox Management</string>
     <string name="spoof_ts_import_keybox">Import keybox</string>
     <string name="spoof_ts_no_keybox">No keybox installed</string>
@@ -151,6 +150,7 @@
     <string name="spoof_ts_keybox_deleted">Keybox deleted</string>
     <string name="spoof_ts_target_configuration">Target Configuration</string>
     <string name="spoof_ts_manage_target_apps">Manage target apps</string>
+    <string name="spoof_ts_manage_target_apps_summary">Choose apps and spoof mode for each app</string>
     <string name="spoof_ts_no_targets">No target apps configured</string>
     <string name="spoof_ts_target_apps_count">Configured • %d apps</string>
     <string name="spoof_ts_import_target_list">Import target list</string>
