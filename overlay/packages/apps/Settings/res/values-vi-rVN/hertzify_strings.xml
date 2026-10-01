@@ -370,5 +370,5 @@
     <string name="multi_audio_focus_title">Đa tiêu điểm âm thanh</string>
     <string name="multi_audio_focus_summary">Cho phép nhiều ứng dụng phát âm thanh đồng thời</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">Thông tin sóng điện thoại</string>
 </resources>
