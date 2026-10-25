@@ -45,9 +45,9 @@
     <string name="restarting_launcher">Đang khởi động lại trình khởi chạy...</string>
     <string name="restarting_launcher_changes">Đang khởi động lại trình khởi chạy để áp dụng thay đổi...</string>
     <string name="updating_launcher_components">Đang khởi động lại trình khởi chạy để cập nhật các thành phần...</string>
-    <!-- All apps themed icons -->
-    <string name="pref_themed_icons_title">Sử dụng các biểu tượng theo chủ đề trong ngăn kéo ứng dụng</string>
-    <string name="pref_themed_icons_summary">Sử dụng biểu tượng theo chủ đề trên màn hình chính</string>
+    <!-- All apps icon customizations -->
+    <string name="pref_icon_customization_title">Sử dụng biểu tượng tùy chỉnh trong ngăn kéo</string>
+    <string name="pref_icon_customization_summary">Biểu tượng được tùy chỉnh giống trên màn hình chính</string>
     <!-- Edit workspace -->
     <string name="settings_lock_layout_title">Khóa bố cục</string>
     <string name="settings_lock_layout_summary_on">Biểu tượng và widget không thể thêm, xóa và di chuyển trên màn hình chính</string>
@@ -144,6 +144,14 @@
     <string name="work_apps_enable_btn_text_custom">Bật các ứng dụng công việc</string>
     <string name="work_apps_paused_info_body_custom">Ứng dụng công việc không thể gửi thông báo và sử dụng pin hoặc truy cập thông tin vị trí</string>
     <string name="work_apps_paused_telephony_unavailable_body_custom">Ứng dụng công việc không thể nhận cuộc gọi điện thoại hoặc tin nhắn văn bản, gửi thông báo, sử dụng pin hoặc truy cập vị trí</string>
+    <!-- Auto-hide page indicator dots -->
+    <string name="auto_hide_dots">Tự động ẩn chỉ báo trang</string>
+    <string name="auto_hide_dots_summary">Tự động ẩn các chấm chỉ báo trang</string>
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Gói biểu tượng</string>
+    <string name="icon_pack_default_label">Mặc định</string>
+    <string name="icon_pack_add">Cài đặt thêm</string>
+    <string name="icon_pack_no_market">Không có cửa hàng ứng dụng khả dụng</string>
     <!-- Smartspace -->
     <string name="smartspace_pref_title">Xem nhanh</string>
     <string name="smartspace_pref_summary">Hiển thị không gian thông minh ở trên cùng Màn hình chính</string>
