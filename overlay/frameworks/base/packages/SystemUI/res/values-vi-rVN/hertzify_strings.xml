@@ -52,6 +52,8 @@
     </plurals>
     <!-- 5G toggle in Internet Dialog -->
     <string name="enable_fiveg">Bật 5G</string>
+    <!-- Label for UI element which allows to use lens on screenshot [CHAR LIMIT=30] -->
+    <string name="screenshot_lens_label">Ống kính</string>
     <!-- Status bar - icons -->
     <string name="status_bar_icons_title">Biểu tượng thanh trạng thái</string>
     <!-- Name of the firewall status bar icon. -->
@@ -158,14 +160,6 @@
     <string name="no_playing_apps">Không có ứng dụng nào đang phát âm thanh</string>
     <!-- Label for UI element which writes a clipboard-only screenshot to storage [CHAR LIMIT=30] -->
     <string name="screenshot_save_to_storage_label">Lưu vào bộ nhớ?</string>
-    <!-- Label for UI element which allows to use lens on screenshot [CHAR LIMIT=30] -->
-    <string name="screenshot_lens_label">Ống kính</string>
-    <!-- Auto reboot Suggestion/Reminder -->
-    <string name="notification_channel_reboot_suggestion">Đề xuất khởi động lại</string>
-    <string name="notification_channel_reboot_suggestion_description">Thông báo đề xuất khởi động lại</string>
-    <string name="reboot_suggestion_title">Nhắc nhở khởi động lại</string>
-    <string name="reboot_suggestion_description">Thiết bị của bạn đã hoạt động hơn một tuần. Nên khởi động lại thiết bị.</string>
-    <string name="reboot_suggestion_now">Khởi động lại</string>
     <!-- DynamicBar strings [CHAR LIMIT=NONE] -->
     <string name="dynamic_bar_timer">Hẹn giờ</string>
     <string name="dynamic_bar_stopwatch">Bộ bấm giờ</string>
@@ -234,6 +228,9 @@
     <string name="dynamic_bar_connecting">Đang kết nối\u2026</string>
     <string name="dynamic_bar_one_device">1 thiết bị</string>
     <string name="dynamic_bar_bluetooth_device">Thiết bị Bluetooth</string>
+    <string name="dynamic_bar_left_earbud">Left earbud</string>
+    <string name="dynamic_bar_right_earbud">Right earbud</string>
+    <string name="dynamic_bar_earbuds_case">Case</string>
     <string name="dynamic_bar_apps_count"><xliff:g id="count" example="2">%d</xliff:g> ứng dụng</string>
     <string name="dynamic_bar_just_now">Vừa mới đây</string>
     <string name="dynamic_bar_mins_ago"><xliff:g id="count" example="5">%d</xliff:g> phút trước</string>
@@ -262,4 +259,15 @@
     <string name="dynamic_bar_sports_final">Chung kết</string>
     <string name="dynamic_bar_sports_halftime">Hiệp nghỉ</string>
     <string name="dynamic_bar_sports_upcoming">Sắp diễn ra</string>
+    <!-- Name of the roaming status bar icon. -->
+    <string name="status_bar_roaming">Roaming indicator</string>
+    <!-- Name of the HD calling status bar icon. -->
+    <string name="status_bar_hd_calling">HD calling (VoLTE/VoNR)</string>
+    <!-- Name of the VoWiFi status bar icon. -->
+    <string name="status_bar_vowifi">Wi-Fi calling (VoWiFi)</string>
+    <!-- Data usage info in QS footer -->
+    <string name="usage_data">used today</string>
+    <string name="usage_data_weekly">used this week</string>
+    <string name="usage_data_default_suffix">Data</string>
+    <string name="usage_wifi_default_suffix">Wi-Fi</string>
 </resources>
