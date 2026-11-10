@@ -382,23 +382,8 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Thông tin sóng điện thoại</string>
     <!-- Battery saver dark theme -->
-    <string name="battery_saver_dark_theme_title">Turn on with Battery Saver</string>
-    <string name="battery_saver_dark_theme_summary">Dark theme turns on and stays on while Battery Saver is on. Saves the most battery on OLED screens.</string>
+    <string name="battery_saver_dark_theme_title">Bật cùng với Trình tiết kiệm pin</string>
+    <string name="battery_saver_dark_theme_summary">Giao diện tối sẽ bật và duy trì trong khi Trình tiết kiệm pin đang bật. Tiết kiệm pin tối đa trên màn hình OLED.</string>
     <!-- Not shown in the UI; describes the preference for the settings API -->
-    <string name="battery_saver_dark_theme_purpose">Controls whether Battery Saver turns on dark theme and prevents changing it until Battery Saver turns off.</string>
-    <!-- navbar layout -->
-    <string name="navbar_layout_title">Layout</string>
-    <string name="navbar_layout_normal">Bình thường</string>
-    <string name="navbar_layout_compact">Compact</string>
-    <string name="navbar_layout_expanded">Expanded</string>
-    <string name="navbar_layout_leftleaning">Left-leaning</string>
-    <string name="navbar_layout_rightleaning">Right-leaning</string>
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="short_label">Short</string>
-    <string name="long_label">Long</string>
-    <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
+    <string name="battery_saver_dark_theme_purpose">Kiểm soát xem Trình tiết kiệm pin có bật giao diện tối hay không và ngăn việc thay đổi cho đến khi Trình tiết kiệm pin tắt.</string>
 </resources>
