@@ -381,4 +381,9 @@
     <string name="multi_audio_focus_summary">Cho phép nhiều ứng dụng phát âm thanh đồng thời</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Thông tin sóng điện thoại</string>
+    <!-- Battery saver dark theme -->
+    <string name="battery_saver_dark_theme_title">Bật cùng với Trình tiết kiệm pin</string>
+    <string name="battery_saver_dark_theme_summary">Giao diện tối sẽ bật và duy trì trong khi Trình tiết kiệm pin đang bật. Tiết kiệm pin tối đa trên màn hình OLED.</string>
+    <!-- Not shown in the UI; describes the preference for the settings API -->
+    <string name="battery_saver_dark_theme_purpose">Kiểm soát xem Trình tiết kiệm pin có bật giao diện tối hay không và ngăn việc thay đổi cho đến khi Trình tiết kiệm pin tắt.</string>
 </resources>
